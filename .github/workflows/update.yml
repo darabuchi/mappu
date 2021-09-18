@@ -1,7 +1,8 @@
 name: Update Rule Data
 
 on:
-    - push
+    schedule:
+        -   cron: '0 0 * * *'
 
 jobs:
     update:
@@ -15,7 +16,7 @@ jobs:
                 uses: actions/setup-go@v2
                 with:
                     go-version: 1.17
-            -   name: UpdateRuleData
+            -   name: Update Rule Data
                 run: |
                     go mod tidy
                     go run -v ./cmd/.
