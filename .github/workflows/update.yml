@@ -3,7 +3,7 @@ name: Update Rule Data
 on:
     pull_request:
         branches:
-            - action
+            - master
 
 jobs:
     update rule:
