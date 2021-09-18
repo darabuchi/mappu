@@ -1,9 +1,7 @@
 name: Update Rule Data
 
 on:
-    pull_request:
-        branches:
-            - master
+    - push
 
 jobs:
     update rule:
