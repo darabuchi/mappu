@@ -1,0 +1,32 @@
+name: Update Rule Data
+
+on:
+    pull_request:
+        branches:
+            - action
+
+jobs:
+    update rule:
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout
+                uses: actions/checkout@v2
+                with:
+                    fetch-depth: 0
+            -   name: Set up Go
+                uses: actions/setup-go@v2
+                with:
+                    go-version: 1.17
+            -   name: Update Rule Data
+                run: |
+                    go run -v ./cmd/.
+            -   name: commit
+                run: |
+                    git config --global user.email darabuchi0818@gmail.com
+                    git config --global user.name "“だらぶち"
+                    git add .
+                    git commit -a -m "Update Rule Data"
+            -   name: Push changes
+                uses: ad-m/github-push-action@master
+                with:
+                    github_token: ${{ secrets.GITHUB_TOKEN }}
