@@ -79,7 +79,7 @@ func main() {
 	}
 
 	for fileName, data := range out {
-		err := utils.FileWrite(fileName+".txt", data.Join("\n"))
+		err := utils.FileWrite(fileName+".txt", data.Sort().Join("\n"))
 		if err != nil {
 			log.Errorf("err:%v", err)
 			continue
