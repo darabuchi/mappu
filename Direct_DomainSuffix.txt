@@ -7095,7 +7095,6 @@
 91tzy.com
 91ud.com
 91up.com
-91vpn.com
 91vps.com
 91vst.com
 91waijiao.com
@@ -8089,7 +8088,6 @@ admire.so
 admpub.com
 adnmb.com
 adnmb1.com
-adnmb2.com
 adnmb3.com
 adnyg.com
 adobeae.com
@@ -13060,7 +13058,6 @@ ca003.com
 ca168.com
 ca39.com
 ca800.com
-ca8077.com
 caaa-spacechina.com
 caaad.com
 caacbook.com
@@ -19540,7 +19537,6 @@ diketattoo.com
 dili360.com
 dili365.com
 dilidili.tv
-dililitv.com
 dim0.com
 dimeng.net
 dimensionalzone.com
@@ -20885,7 +20881,6 @@ dyrt168.com
 dysxxw.com
 dytechnolog.com
 dytol.com
-dytt.net
 dytt2019.net
 dytt789.com
 dytt8.com
@@ -21541,7 +21536,6 @@ efengji.org
 efesco.com
 eff-soft.com
 effapp.com
-effecthub.com
 effevo.com
 efficient.hk
 effirst.com
@@ -28219,7 +28213,6 @@ hiwebgl.com
 hiwechats.com
 hiwemeet.com
 hiwenku.com
-hiwifi.com
 hiworld.com
 hixgo.com
 hixianchang.com
@@ -40763,7 +40756,6 @@ mmfang.cc
 mmfbm.com
 mmfi.net
 mmfj.com
-mmgal.com
 mmgl.net
 mmgogo.com
 mmhktv.com
@@ -41403,7 +41395,6 @@ mushapi.com
 mushroomchina.com
 music163.com
 music4x.com
-musical.ly
 musicbody.net
 musicchina-expo.com
 musicdu.com
@@ -49172,7 +49163,6 @@ shaodaren.com
 shaodts.net
 shaoerbc.org
 shaoerbianchengwang.com
-shaogood.com
 shaokang.org
 shaoke.com
 shaolintagou.com
@@ -50292,7 +50282,6 @@ singhot.com
 singlecool.com
 singpodcast.com
 singread.com
-singtaonet.com
 sinmeng.com
 sinmv.com
 sino-corrugated.com
@@ -50310,7 +50299,6 @@ sinoassistance.com
 sinobaron.com
 sinobasalt.com
 sinobasedm.com
-sinoca.com
 sinocars.com
 sinocateringexpo.com
 sinocax.com
@@ -50702,7 +50690,6 @@ smartlinku.com
 smartmidea.net
 smartoct.com
 smartpigai.com
-smartproxy.me
 smartqian.com
 smarts.online
 smartsenstech.com
@@ -50886,7 +50873,6 @@ socialjia.com
 socomic.com
 socool-tech.com
 socsight.com
-sod99.com
 sodalife.xyz
 sodao.com
 sodc8.com
@@ -53713,7 +53699,6 @@ tijianzhuanjia.com
 tijiyi.com
 tikersport.com
 tikikm.com
-tiktok.com
 tiktokcdn.com
 tiktokv.com
 tikuol.com
@@ -54707,7 +54692,6 @@ tubegetpro.com
 tubiaoxiu.com
 tuboshu.com
 tubutu.com
-tucao.tv
 tucaojie.com
 tuchong.com
 tuchong.net
@@ -55471,7 +55455,6 @@ umeng100.com
 umengcloud.com
 umenglog.com
 umetrip.com
-umi.im
 umiall.com
 umihome.com
 umilu.com
@@ -55741,7 +55724,6 @@ usitour.com
 usitrip.com
 usjuw.com
 usnook.com
-usocctn.com
 usocialplus.com
 usoftchina.com
 usonetrip.com
@@ -56468,7 +56450,6 @@ vpsaff.com
 vpscang.com
 vpsdawanjia.com
 vpsdx.com
-vpser.net
 vpsjie.com
 vpskk.com
 vpsmm.com
@@ -59293,7 +59274,6 @@ www-api.ibm.com
 www.adobe.com
 www.agoda.com
 www.akamai.com
-www.amd.com
 www.analog.com
 www.cc
 www.cdnetworks.com
@@ -60031,7 +60011,6 @@ xiamiaopai.com
 xiamoyun.com
 xiamp4.com
 xian-tourism.com
-xianba.net
 xianbai.me
 xianbao.net
 xianbdj.com
@@ -61461,7 +61440,6 @@ xp74.com
 xp85.com
 xp868.com
 xp933.com
-xp9365.com
 xpaper.com
 xpaper.net
 xpaper.vip
@@ -68329,8 +68307,6 @@ regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$
 regexp:^images(-\d)?\.gog-statics\.com$
 regexp:^is[1-5](-ssl)?\.mzstatic\.com$
 regexp:^s[1-5]?\.mzstatic\.com$
-^cdn(-cn)?[1-4]?\.apple-mapkit\.com$
-kline-lb.apple.com.akadns.net
 zhenbuka1.com
 zhenbuka2.com
 zhenbuka3.com
