@@ -14,7 +14,77 @@ import (
 )
 
 func main() {
-	GetRuleList()
+	baseDir := filepath.Join(utils.GetConfigDir(), "rule")
+	if !utils.FileExists(baseDir) {
+		err := os.MkdirAll(baseDir, 0777)
+		if err != nil {
+			log.Errorf("err:%v", err)
+			return
+		}
+	}
+
+	out := map[string]pie.Strings{}
+	existMap := map[string]bool{}
+
+	add := func(s string, ruleType RuleType, netType NetType) {
+		if existMap[s] {
+			return
+		}
+
+		defer func() {
+			existMap[s] = true
+		}()
+
+		out[fmt.Sprintf("%s_%s", netType, ruleType)] = append(out[fmt.Sprintf("%s_%s", netType, ruleType)], s)
+	}
+
+	for _, val := range ruleConfigMap {
+		switch val.Type {
+		case RuleConfigTypeDomainTxt:
+			pie.Strings(strings.Split(getOrUpdateRule(val.FileName, val.FileUrl, false), "\n")).Each(func(domain string) {
+				add(domain, val.RuleType, val.NetType)
+			})
+		case RuleConfigTypeRuleProvider:
+			var data struct {
+				Payload []string `json:"payload" yaml:"payload" bson:"payload" xml:"payload"`
+			}
+
+			err := yaml.Unmarshal([]byte(getOrUpdateRule(val.FileName, val.FileUrl, false)), &data)
+			if err != nil {
+				log.Errorf("err:%v", err)
+				continue
+			}
+
+			pie.Strings(data.Payload).Each(func(payload string) {
+				payload = strings.TrimPrefix(payload, "+.")
+
+				add(payload, val.RuleType, val.NetType)
+			})
+
+		case RuleConfigTypeRuleProviderCIDR:
+			var data struct {
+				Payload []string `json:"payload" yaml:"payload" bson:"payload" xml:"payload"`
+			}
+
+			err := yaml.Unmarshal([]byte(getOrUpdateRule(val.FileName, val.FileUrl, false)), &data)
+			if err != nil {
+				log.Errorf("err:%v", err)
+				continue
+			}
+
+			pie.Strings(data.Payload).Each(func(payload string) {
+				add(payload, val.RuleType, val.NetType)
+			})
+		}
+	}
+
+	for fileName, data := range out {
+		err := utils.FileWrite(fileName+".txt", data.Join("\n"))
+		if err != nil {
+			log.Errorf("err:%v", err)
+			continue
+		}
+	}
 }
 
 type RuleConfigType int
@@ -166,78 +236,4 @@ func getOrUpdateRule(fileName string, url string, skipDownload bool) string {
 	}
 
 	return buf
-}
-
-func GetRuleList() {
-	baseDir := filepath.Join(utils.GetConfigDir(), "rule")
-	if !utils.FileExists(baseDir) {
-		err := os.MkdirAll(baseDir, 0777)
-		if err != nil {
-			log.Errorf("err:%v", err)
-			return
-		}
-	}
-
-	out := map[string]pie.Strings{}
-	existMap := map[string]bool{}
-
-	add := func(s string, ruleType RuleType, netType NetType) {
-		if existMap[s] {
-			return
-		}
-
-		defer func() {
-			existMap[s] = true
-		}()
-
-		out[fmt.Sprintf("%s_%s", netType, ruleType)] = append(out[fmt.Sprintf("%s_%s", netType, ruleType)], s)
-	}
-
-	for _, val := range ruleConfigMap {
-		switch val.Type {
-		case RuleConfigTypeDomainTxt:
-			pie.Strings(strings.Split(getOrUpdateRule(val.FileName, val.FileUrl, false), "\n")).Each(func(domain string) {
-				add(domain, val.RuleType, val.NetType)
-			})
-		case RuleConfigTypeRuleProvider:
-			var data struct {
-				Payload []string `json:"payload" yaml:"payload" bson:"payload" xml:"payload"`
-			}
-
-			err := yaml.Unmarshal([]byte(getOrUpdateRule(val.FileName, val.FileUrl, false)), &data)
-			if err != nil {
-				log.Errorf("err:%v", err)
-				continue
-			}
-
-			pie.Strings(data.Payload).Each(func(payload string) {
-				payload = strings.TrimPrefix(payload, "+.")
-
-				add(payload, val.RuleType, val.NetType)
-			})
-
-		case RuleConfigTypeRuleProviderCIDR:
-			var data struct {
-				Payload []string `json:"payload" yaml:"payload" bson:"payload" xml:"payload"`
-			}
-
-			err := yaml.Unmarshal([]byte(getOrUpdateRule(val.FileName, val.FileUrl, false)), &data)
-			if err != nil {
-				log.Errorf("err:%v", err)
-				continue
-			}
-
-			pie.Strings(data.Payload).Each(func(payload string) {
-				add(payload, val.RuleType, val.NetType)
-			})
-		}
-	}
-
-	for fileName, data := range out {
-		err := utils.FileWrite(fileName+".txt", data.Join("\n"))
-		if err != nil {
-			log.Errorf("err:%v", err)
-			continue
-		}
-	}
 }
