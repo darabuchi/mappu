@@ -121,7 +121,7 @@ const (
 var ruleConfigList = []RuleConfig{
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/darabuchi/mappu@master/serufu/Direct_DomainSuffix.txt",
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_DomainSuffix.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeDirect,
 	},
