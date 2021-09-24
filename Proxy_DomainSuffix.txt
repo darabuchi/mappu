@@ -4821,6 +4821,7 @@ bbchat.tv
 bbci.co.uk
 bbcmundo.com
 bbcnews.co.uk
+bbcpersian.com
 bbcradioint.com
 bbcurdu.com
 bbcverticals.com
@@ -10414,6 +10415,7 @@ dynamicdns.org.uk
 dynamics.com
 dynathome.net
 dynawebinc.com
+dyncdn.me
 dyndns-free.com
 dyndns-home.com
 dyndns-ip.com
@@ -12743,6 +12745,7 @@ fulione.com
 fulixtv.com
 full:abematv.akamaized.net
 full:amp.akamaized.net
+full:api-p.videomarket.jp
 full:api.viu.now.com
 full:apple.com.akadns.net
 full:appleworldwidedeveloper.hb-api.omtrdc.net
@@ -23413,12 +23416,17 @@ raponlinereview.com
 rarbg.is
 rarbg.me
 rarbgaccess.org
+rarbgaccessed.org
+rarbgget.org
 rarbggo.org
 rarbgmirror.com
 rarbgmirror.org
 rarbgproxy.org
 rarbgprx.org
+rarbgto.org
 rarbgunblock.com
+rarbgunblock.org
+rarbgway.org
 raremovie.cc
 raremovie.net
 raspberrypi.org
