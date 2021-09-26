@@ -1354,6 +1354,7 @@
 4everproxy.com
 4freemam.myfw.us
 4freeproxy.com
+4gtv.tv
 4irc.com
 4jok.com
 4musclemen.com
@@ -1511,7 +1512,6 @@
 54647.global
 54647.io
 54647.online
-54647.org
 54647.xyz
 546990.com
 5482562.com
@@ -3780,6 +3780,7 @@ api1.sg888.net
 api1.sg8888.ws
 api17tp.apitilt.com
 apiary.io
+apibay.org
 apic.pinnacle.com
 apidocs.linksalpha.com
 apigame.yunbo11.com
@@ -4821,6 +4822,7 @@ bbchat.tv
 bbci.co.uk
 bbcmundo.com
 bbcnews.co.uk
+bbcpersian.com
 bbcradioint.com
 bbcurdu.com
 bbcverticals.com
@@ -5262,6 +5264,7 @@ benchprep.org
 benchworkforce.com.au
 benditabreja.com.br
 benjibot.xyz
+benliton.com
 bennyp.net
 bentley
 bentobox.tv
@@ -7786,6 +7789,8 @@ ck.juicyads.com
 ck.spacetechnology.net
 ck10019.cc
 ck101.com
+ckcdn.com
+ckck.fun
 ckw77.com
 cl
 cl.d0z.net
@@ -10414,6 +10419,7 @@ dynamicdns.org.uk
 dynamics.com
 dynathome.net
 dynawebinc.com
+dyncdn.me
 dyndns-free.com
 dyndns-home.com
 dyndns-ip.com
@@ -12015,6 +12021,7 @@ firech.at
 fireemblemawakening.com
 firefox.com
 firefoxfan.com
+firefoxusercontent.com
 fireofliberty.org
 fireside.fm
 firesidegatherings.com
@@ -12742,6 +12749,7 @@ fulione.com
 fulixtv.com
 full:abematv.akamaized.net
 full:amp.akamaized.net
+full:api-p.videomarket.jp
 full:api.viu.now.com
 full:apple.com.akadns.net
 full:appleworldwidedeveloper.hb-api.omtrdc.net
@@ -17752,6 +17760,7 @@ lebtimnetz.de
 lecanardenchaine.fr
 leclerc
 lecloud.net
+lecoin.cc
 lede-project.org
 ledongzhibo111.com
 ledongzhibo1111.com
@@ -18263,6 +18272,7 @@ lovemarca.com
 lovemov.cc
 lovemyanime.net
 loveofkuanyin.com
+loveparents.org
 lovesexdurex.com
 lovethiscity.com
 lovetibet.ti-da.net
@@ -19779,6 +19789,7 @@ moxaftp.box.com
 moyuv5.com
 mozaic
 mozhua.net
+mozilla.com
 mozilla.community
 mozilla.net
 mozilla.org
@@ -21144,6 +21155,7 @@ ny.visiontimes.com
 ny1.com
 nyaa.com
 nyaa.eu
+nyaa.net
 nyaa.si
 nyahentai.com
 nyam1380.com
@@ -22395,6 +22407,7 @@ piratebay.com
 piratebayproxy.co
 piratebrowser.com
 piratelist.org
+pirates-forum.org
 piriform.com
 piring.com
 pise.pw
@@ -23015,6 +23028,8 @@ ptbtm.com
 pts.org.tw
 ptt.cc
 ptt.com
+ptt2.cc
+ptt3.cc
 pttgame.com
 pttgopolitics.com
 pttvan.org
@@ -23411,12 +23426,17 @@ raponlinereview.com
 rarbg.is
 rarbg.me
 rarbgaccess.org
+rarbgaccessed.org
+rarbgget.org
 rarbggo.org
 rarbgmirror.com
 rarbgmirror.org
 rarbgproxy.org
 rarbgprx.org
+rarbgto.org
 rarbgunblock.com
+rarbgunblock.org
+rarbgway.org
 raremovie.cc
 raremovie.net
 raspberrypi.org
@@ -27012,6 +27032,7 @@ torrenty.org
 torrentz.eu
 torrentz2.eu
 torrentz2.is
+torrindex.net
 torss.cf
 torvpn.com
 tosh.comedycentral.com
@@ -27158,7 +27179,6 @@ trudireaume.com
 truebuddha-md.org
 truedepth3d.com
 trulyergonomic.com
-trust.zone
 trustasiassl.com
 trustdoc.ch
 trustedanalytics.com
@@ -29014,6 +29034,8 @@ wangyi64.spaces.live.com
 wannaflix.com
 wanokokorosoh.com
 want-daily.com
+want-media.com
+wantblogger.com
 wanyepu.com
 wanz-factory.com
 wap.xinbao6.net
@@ -36067,6 +36089,7 @@ zuola.com
 zurama.ru
 zvereff.com
 zw
+zwtvusa.com
 zx-fly.com
 zyd.jygweb.org
 zynaima.com
