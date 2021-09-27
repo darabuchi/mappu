@@ -25258,7 +25258,6 @@ gitee.com
 gitee.io
 githang.com
 github-trending.com
-githubmemory.com
 githubusercontents.com
 gitissue.com
 gitlib.com

@@ -13569,6 +13569,7 @@ github.io
 githubapp.com
 githubassets.com
 githubhackathon.com
+githubmemory.com
 githubpreview.dev
 githubstatus.com
 githubuniverse.com
