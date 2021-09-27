@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/alexflint/go-arg"
 	"github.com/darabuchi/enputi/utils"
 	"github.com/eddieivan01/nic"
 	"github.com/elliotchance/pie/pie"
@@ -13,7 +14,13 @@ import (
 	"strings"
 )
 
+var cmdArgs struct {
+	SaveDisk bool `arg:"-d,--dist" help:"save cache to disk"`
+}
+
 func main() {
+	arg.MustParse(&cmdArgs)
+
 	baseDir := filepath.Join(utils.GetConfigDir(), "rule")
 	if !utils.FileExists(baseDir) {
 		err := os.MkdirAll(baseDir, 0777)
@@ -27,13 +34,14 @@ func main() {
 	existMap := map[string]bool{}
 
 	add := func(s string, ruleType RuleType, netType NetType) {
-		if existMap[s] {
+		if s == "" {
 			return
 		}
 
-		defer func() {
-			existMap[s] = true
-		}()
+		if existMap[s] {
+			return
+		}
+		existMap[s] = true
 
 		out[fmt.Sprintf("%s_%s", netType, ruleType)] = append(out[fmt.Sprintf("%s_%s", netType, ruleType)], s)
 	}
@@ -42,6 +50,12 @@ func main() {
 		switch val.Type {
 		case RuleConfigTypeDomainTxt:
 			pie.Strings(strings.Split(getOrUpdateRule(val.FileUrl), "\n")).Each(func(domain string) {
+				if strings.HasPrefix(domain, "full:") {
+					domain = strings.TrimPrefix(domain, "full:")
+				} else if strings.HasPrefix(domain, "regexp:") {
+					domain = strings.TrimPrefix(domain, "full:")
+				}
+
 				add(domain, val.RuleType, val.NetType)
 			})
 		case RuleConfigTypeRuleProvider:
@@ -133,61 +147,61 @@ var ruleConfigList = []RuleConfig{
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/reject-list.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeAdBlock,
 	},
 	{
 		Type:     RuleConfigTypeRuleProviderCIDR,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeRuleProvider,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/proxy-list.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeRuleProvider,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/greatfire.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/greatfire.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/gfw.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/cn-blocked-domain@release/domains.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/cn-blocked-domain/release/domains.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/direct-list.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeDirect,
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/CN-ip-cidr.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},
@@ -199,13 +213,13 @@ var ruleConfigList = []RuleConfig{
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt",
+		FileUrl:  "https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},
 	{
 		Type:     RuleConfigTypeRuleProviderCIDR,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},
@@ -228,6 +242,15 @@ func getOrUpdateRule(fileUrl string) string {
 
 	switch resp.StatusCode {
 	case http.StatusOK:
+		if cmdArgs.SaveDisk {
+			fileName := filepath.Join(utils.GetUserConfigDir(), "mappu", utils.Md5(fileUrl)+".txt")
+			log.Infof("save %v to %v", fileUrl, fileName)
+			err = utils.FileWrite(fileName, resp.Text)
+			if err != nil {
+				log.Errorf("err:%v", err)
+			}
+		}
+
 		return resp.Text
 	default:
 		return ""
