@@ -12814,6 +12814,7 @@ full:gitlab-assets.oss-cn-hongkong.aliyuncs.com
 full:heads4-ak-spotify-com.akamaized.net
 full:homebrew.bintray.com
 full:hpstore.corpmerchandise.com
+full:i.jeded.com
 full:img-prod-cms-rt-microsoft-com.akamaized.net
 full:img-s-msn-com.akamaized.net
 full:imperial.insendi.com
@@ -17964,6 +17965,11 @@ liberapay.com
 liberapay.org
 libertics.com.ar
 libertytimes.com.tw
+libgen.fun
+libgen.is
+libgen.life
+libgen.me
+libgen.rs
 libo15.com
 library.pressdisplay.com
 library.usc.cuhk.edu.hk
@@ -24301,6 +24307,9 @@ schonenaci.sk
 schooltunnel.net
 schwarz
 schwarzgroup
+sci-hub.ee
+sci-hub.mksa.top
+sci.hubg.org
 sciencedaily.com
 sciencedirect.com
 sciencedirectassets.com
@@ -25782,6 +25791,7 @@ submit.jotform.us
 submit.jotformz.com
 submityourflicks.com
 submityourtapes.com
+subscene.com
 subscribetomyadventure.firebaseio.com
 successfn.com
 successwithteams.com
@@ -26893,6 +26903,7 @@ tm-ma.client.renweb.com
 tma.co.jp
 tmagazine.com
 tmblr.co
+tmdb.org
 tmdfish.com
 tmemail.media.org.hk
 tmgm.com
@@ -27179,6 +27190,7 @@ trudireaume.com
 truebuddha-md.org
 truedepth3d.com
 trulyergonomic.com
+trust.zone
 trustasiassl.com
 trustdoc.ch
 trustedanalytics.com
@@ -28547,6 +28559,7 @@ vmtestdrive.com
 vmw.com
 vmware-cloudmanagement.com
 vmware-techcenter.com
+vmware.com
 vmware20mosaic.com
 vmwareausnews.com
 vmwarecertificationvideos.com
