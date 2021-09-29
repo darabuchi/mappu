@@ -3585,6 +3585,7 @@ amzn.com
 amznl.com
 an
 an.1x.net
+anaconda.cloud
 anaconda.com
 anaconda.org
 anakinweb.com
@@ -13587,7 +13588,9 @@ gog-statics.com
 gog.com
 goge.ml
 gogle.com
+gogo-load.com
 gogo2sex.com
+gogocdn.net
 gogole.com
 gogotunnel.com
 gohappy.com.tw
@@ -20051,6 +20054,7 @@ mypearson.com
 mypearsonenglish.ch
 mypets.ws
 mypicture.info
+mypikpak.com
 myplan.powayusd.com
 mypop3.net
 mypop3.org
@@ -22013,6 +22017,7 @@ pcdasm.flnet.org
 pcdvd.com.tw
 pchi.me
 pchome.com.tw
+pchomeonline.com.tw
 pcij.org
 pcman.ptt.cc
 pcre.org
