@@ -10,6 +10,7 @@ on:
         branches:
             - master
         types:
+            - auto_merge_enabled
             - closed
 
 jobs:
@@ -19,7 +20,7 @@ jobs:
             -   name: Checkout
                 uses: actions/checkout@v2
                 with:
-                    fetch-depth: 0
+                    fetch-depth: 1
             -   name: Set up Go
                 uses: actions/setup-go@v2
                 with:
