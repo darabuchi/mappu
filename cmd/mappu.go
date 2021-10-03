@@ -165,6 +165,12 @@ var ruleConfigList = []RuleConfig{
 	},
 	{
 		Type:     RuleConfigTypeDomainTxt,
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_DomainSuffix.txt",
+		RuleType: RuleTypeDomainSuffix,
+		NetType:  NetTypeProxy,
+	},
+	{
+		Type:     RuleConfigTypeDomainTxt,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/reject-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeAdBlock,
