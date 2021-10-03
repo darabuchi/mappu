@@ -18,3 +18,6 @@
 - 每天0点会定时更新
 - 如果需要食用，直接使用根目录文件即可，文件命名规则为
   `代理方式_规则内容`
+- 订阅转换配置
+  - 源: https://raw.githubusercontent.com/darabuchi/mappu/master/clash/conf.ini
+  - Dns: https://cdn.jsdelivr.net/gh/darabuchi/mappu@master/clash/conf.ini

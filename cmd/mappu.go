@@ -7,6 +7,7 @@ import (
 	"github.com/elliotchance/pie/pie"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
+	"net"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -26,6 +27,8 @@ func main() {
 	out := map[string]pie.Strings{}
 	existMap := map[string]bool{}
 
+	clashMap := map[NetType]pie.Strings{}
+
 	add := func(s string, ruleType RuleType, netType NetType) {
 		if existMap[s] {
 			return
@@ -36,14 +39,37 @@ func main() {
 		}()
 
 		out[fmt.Sprintf("%s_%s", netType, ruleType)] = append(out[fmt.Sprintf("%s_%s", netType, ruleType)], s)
+
+		subconverter := func() string {
+			switch ruleType {
+			case RuleTypeDomainSuffix:
+				return "DOMAIN-SUFFIX," + s
+			case RuleTypeCIDR:
+				ip, _, err := net.ParseCIDR(s)
+				if err != nil {
+					log.Errorf("err:%v", err)
+					return ""
+				}
+
+				if ip.To4() != nil {
+					return "IP-CIDR," + s + ",no-resolve"
+				}
+				return "IP-CIDR6," + s + ",no-resolve"
+			default:
+				return ""
+			}
+		}
+
+		clashMap[netType] = append(clashMap[netType], subconverter())
 	}
 
 	for _, val := range ruleConfigList {
 		switch val.Type {
 		case RuleConfigTypeDomainTxt:
-			pie.Strings(strings.Split(getOrUpdateRule(val.FileUrl), "\n")).Each(func(domain string) {
-				add(domain, val.RuleType, val.NetType)
-			})
+			pie.Strings(strings.Split(getOrUpdateRule(val.FileUrl), "\n")).
+				Each(func(domain string) {
+					add(domain, val.RuleType, val.NetType)
+				})
 		case RuleConfigTypeRuleProvider:
 			var data struct {
 				Payload []string `json:"payload" yaml:"payload" bson:"payload" xml:"payload"`
@@ -79,7 +105,19 @@ func main() {
 	}
 
 	for fileName, data := range out {
-		err := utils.FileWrite(fileName+".txt", data.Sort().Join("\n"))
+		err := utils.FileWrite(fileName+".txt", data.FilterNot(func(s string) bool {
+			return s == ""
+		}).Sort().Join("\n"))
+		if err != nil {
+			log.Errorf("err:%v", err)
+			continue
+		}
+	}
+
+	for fileName, data := range clashMap {
+		err := utils.FileWrite("clash/"+string(fileName)+".txt", data.FilterNot(func(s string) bool {
+			return s == ""
+		}).Sort().Join("\n"))
 		if err != nil {
 			log.Errorf("err:%v", err)
 			continue
