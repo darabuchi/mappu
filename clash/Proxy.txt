@@ -11194,6 +11194,7 @@ DOMAIN-SUFFIX,eurovision
 DOMAIN-SUFFIX,evchk.wikia.com
 DOMAIN-SUFFIX,evchk.wikia.org
 DOMAIN-SUFFIX,events4fun.net
+DOMAIN-SUFFIX,eventsinfocus.org
 DOMAIN-SUFFIX,eventstagr.am
 DOMAIN-SUFFIX,everbank
 DOMAIN-SUFFIX,everipedia.org
@@ -26449,6 +26450,7 @@ DOMAIN-SUFFIX,thcal.us
 DOMAIN-SUFFIX,thd
 DOMAIN-SUFFIX,the-m-festival.com
 DOMAIN-SUFFIX,the-monster-beats.com
+DOMAIN-SUFFIX,theaffairs.com
 DOMAIN-SUFFIX,theage.com.au
 DOMAIN-SUFFIX,theagelessbodysystemreview.com
 DOMAIN-SUFFIX,theaggie.org
@@ -26926,6 +26928,7 @@ DOMAIN-SUFFIX,tn3.shemalez.com
 DOMAIN-SUFFIX,tnaflix.com
 DOMAIN-SUFFIX,tngrnow.com
 DOMAIN-SUFFIX,tngrnow.net
+DOMAIN-SUFFIX,tnntoday.com
 DOMAIN-SUFFIX,tnp.org
 DOMAIN-SUFFIX,tnpsc.gov.in
 DOMAIN-SUFFIX,tnr.com
@@ -27498,6 +27501,7 @@ DOMAIN-SUFFIX,twerkingbutt.com
 DOMAIN-SUFFIX,twftp.org
 DOMAIN-SUFFIX,twgngc.cnns.tw
 DOMAIN-SUFFIX,twgreatdaily.com
+DOMAIN-SUFFIX,twgreatnews.com
 DOMAIN-SUFFIX,twhawk.tw
 DOMAIN-SUFFIX,twibase.com
 DOMAIN-SUFFIX,twibble.de
