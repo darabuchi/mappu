@@ -236,12 +236,6 @@ var ruleConfigList = []RuleConfig{
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/17mon/china_ip_list@master/china_ip_list.txt",
-		RuleType: RuleTypeCIDR,
-		NetType:  NetTypeDirect,
-	},
-	{
 		Type:     RuleConfigTypeRuleProviderCIDR,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt",
 		RuleType: RuleTypeCIDR,
