@@ -48,7 +48,7 @@ func main() {
 
 	for _, val := range ruleConfigList {
 		switch val.Type {
-		case RuleConfigTypeDomainTxt:
+		case RuleConfigTypeList:
 			pie.Strings(strings.Split(getOrUpdateRule(val.FileUrl), "\n")).Each(func(domain string) {
 				if strings.HasPrefix(domain, "full:") {
 					domain = strings.TrimPrefix(domain, "full:")
@@ -104,7 +104,7 @@ func main() {
 type RuleConfigType int
 
 const (
-	RuleConfigTypeDomainTxt RuleConfigType = iota
+	RuleConfigTypeList RuleConfigType = iota
 	RuleConfigTypeRuleProvider
 	RuleConfigTypeRuleProviderCIDR
 )
@@ -130,23 +130,24 @@ type RuleType string
 const (
 	RuleTypeDomainSuffix RuleType = "DomainSuffix"
 	RuleTypeCIDR         RuleType = "IpCidr"
+	RuleTypeProcessName  RuleType = "PROCESS-NAME"
 )
 
 var ruleConfigList = []RuleConfig{
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_DomainSuffix.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_DomainSuffix.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeAdBlock,
@@ -164,7 +165,7 @@ var ruleConfigList = []RuleConfig{
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
@@ -176,43 +177,43 @@ var ruleConfigList = []RuleConfig{
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/greatfire.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/cn-blocked-domain/release/domains.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
@@ -222,6 +223,18 @@ var ruleConfigList = []RuleConfig{
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
+	},
+	{
+		Type:     RuleConfigTypeList,
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_ProcessName.txt",
+		RuleType: RuleTypeProcessName,
+		NetType:  NetTypeDirect,
+	},
+	{
+		Type:     RuleConfigTypeList,
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_ProcessName.txt",
+		RuleType: RuleTypeProcessName,
+		NetType:  NetTypeProxy,
 	},
 }
 
