@@ -55,6 +55,8 @@ func main() {
 					return "IP-CIDR," + s + ",no-resolve"
 				}
 				return "IP-CIDR6," + s + ",no-resolve"
+			case RuleTypeProcessName:
+				return "PROCESS-NAME," + s
 			default:
 				return ""
 			}
@@ -65,7 +67,7 @@ func main() {
 
 	for _, val := range ruleConfigList {
 		switch val.Type {
-		case RuleConfigTypeDomainTxt:
+		case RuleConfigTypeList:
 			pie.Strings(strings.Split(getOrUpdateRule(val.FileUrl), "\n")).
 				Each(func(domain string) {
 					add(domain, val.RuleType, val.NetType)
@@ -128,7 +130,7 @@ func main() {
 type RuleConfigType int
 
 const (
-	RuleConfigTypeDomainTxt RuleConfigType = iota
+	RuleConfigTypeList RuleConfigType = iota
 	RuleConfigTypeRuleProvider
 	RuleConfigTypeRuleProviderCIDR
 )
@@ -154,23 +156,24 @@ type RuleType string
 const (
 	RuleTypeDomainSuffix RuleType = "DomainSuffix"
 	RuleTypeCIDR         RuleType = "IpCidr"
+	RuleTypeProcessName  RuleType = "ProcessName"
 )
 
 var ruleConfigList = []RuleConfig{
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_DomainSuffix.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_DomainSuffix.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/reject-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeAdBlock,
@@ -188,7 +191,7 @@ var ruleConfigList = []RuleConfig{
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/proxy-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
@@ -200,37 +203,37 @@ var ruleConfigList = []RuleConfig{
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/greatfire.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/gfw.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/cn-blocked-domain@release/domains.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/direct-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/CN-ip-cidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},
 	{
-		Type:     RuleConfigTypeDomainTxt,
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/metowolf/iplist/master/data/special/china.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
@@ -240,6 +243,18 @@ var ruleConfigList = []RuleConfig{
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
+	},
+	{
+		Type:     RuleConfigTypeList,
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_ProcessName.txt",
+		RuleType: RuleTypeProcessName,
+		NetType:  NetTypeDirect,
+	},
+	{
+		Type:     RuleConfigTypeList,
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_ProcessName.txt",
+		RuleType: RuleTypeProcessName,
+		NetType:  NetTypeProxy,
 	},
 }
 
