@@ -18,4 +18,13 @@
 - 每天0点会定时更新
 - 如果需要食用，直接使用根目录文件即可，文件命名规则为
   `代理方式_规则内容`
-- 如果存在未处理的，请提交pr或issues
+- 订阅转换配置
+	- 源: https://raw.githubusercontent.com/darabuchi/mappu/master/clash/conf.ini
+	- Dns: https://cdn.jsdelivr.net/gh/darabuchi/mappu@master/clash/conf.ini
+
+### 数据源
+
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
+- [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
+- [metowolf/iplist](https://github.com/metowolf/iplist) 中的中国区域IP
+- 自身的数据源，可以通过PR活ISSUES提供新的规则分类，本数据源遇到与其他数据源规则冲突时，优先级最高
