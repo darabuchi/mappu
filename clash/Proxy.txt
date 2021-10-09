@@ -8112,6 +8112,7 @@ DOMAIN-SUFFIX,coinegg.com
 DOMAIN-SUFFIX,coinex.com
 DOMAIN-SUFFIX,coinf.com.mx
 DOMAIN-SUFFIX,coingi.com
+DOMAIN-SUFFIX,coinmarketcap.com
 DOMAIN-SUFFIX,coinonecore.com
 DOMAIN-SUFFIX,coinonecorp.com
 DOMAIN-SUFFIX,coinrail.co.kr
@@ -12696,6 +12697,7 @@ DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,fteproxy.org
 DOMAIN-SUFFIX,ftopx.com
 DOMAIN-SUFFIX,ftp.cc
+DOMAIN-SUFFIX,ftp.com
 DOMAIN-SUFFIX,ftp1.biz
 DOMAIN-SUFFIX,ftpaccess.cc
 DOMAIN-SUFFIX,ftpserver.biz

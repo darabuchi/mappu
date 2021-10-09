@@ -8112,6 +8112,7 @@ coinegg.com
 coinex.com
 coinf.com.mx
 coingi.com
+coinmarketcap.com
 coinonecore.com
 coinonecorp.com
 coinrail.co.kr
@@ -12696,6 +12697,7 @@ ftchinese.com
 fteproxy.org
 ftopx.com
 ftp.cc
+ftp.com
 ftp1.biz
 ftpaccess.cc
 ftpserver.biz
