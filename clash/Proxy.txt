@@ -11277,6 +11277,7 @@ DOMAIN-SUFFIX,ezpeer.com
 DOMAIN-SUFFIX,ezprice.com.tw
 DOMAIN-SUFFIX,ezto.in
 DOMAIN-SUFFIX,ezua.com
+DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,f.2fine.de
 DOMAIN-SUFFIX,f.wheredreams.com
 DOMAIN-SUFFIX,f1155.com
