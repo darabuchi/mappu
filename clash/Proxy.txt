@@ -15157,6 +15157,7 @@ DOMAIN-SUFFIX,hornbunny.com
 DOMAIN-SUFFIX,hornygamer.com
 DOMAIN-SUFFIX,hornytrip.com
 DOMAIN-SUFFIX,hornywife.com
+DOMAIN-SUFFIX,horrorporn.com
 DOMAIN-SUFFIX,hoskinmedia.com
 DOMAIN-SUFFIX,host.io
 DOMAIN-SUFFIX,hostens.com
