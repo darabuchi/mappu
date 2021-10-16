@@ -703,6 +703,7 @@ DOMAIN-SUFFIX,201you.me
 DOMAIN-SUFFIX,20206003.com
 DOMAIN-SUFFIX,20206006.com
 DOMAIN-SUFFIX,2020loseweight.lun-cheng.com
+DOMAIN-SUFFIX,2021hkcharter.com
 DOMAIN-SUFFIX,203186077128.static.ctinets.com
 DOMAIN-SUFFIX,2047.name
 DOMAIN-SUFFIX,2049bbs.github.io
@@ -6232,6 +6233,7 @@ DOMAIN-SUFFIX,bookbao8.com
 DOMAIN-SUFFIX,bookclubcorner.com
 DOMAIN-SUFFIX,bookclubgirl.com
 DOMAIN-SUFFIX,bookdepository.co.uk
+DOMAIN-SUFFIX,bookdepository.com
 DOMAIN-SUFFIX,bookepub.com
 DOMAIN-SUFFIX,booking.com
 DOMAIN-SUFFIX,bookinh.com.br
@@ -13819,6 +13821,7 @@ DOMAIN-SUFFIX,gooddaychicago.com
 DOMAIN-SUFFIX,gooddns.info
 DOMAIN-SUFFIX,gooddns.xyz
 DOMAIN-SUFFIX,goodhands
+DOMAIN-SUFFIX,goodhope.school
 DOMAIN-SUFFIX,goodnews.good-tutor.net
 DOMAIN-SUFFIX,goodreaders.com
 DOMAIN-SUFFIX,goodreads.com
