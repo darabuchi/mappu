@@ -174,6 +174,12 @@ var ruleConfigList = []RuleConfig{
 	},
 	{
 		Type:     RuleConfigTypeList,
+		FileUrl:  "https://raw.githubusercontent.com/cobaltdisco/Google-Chinese-Results-Blocklist/master/GHHbD_perma_ban_list.txt",
+		RuleType: RuleTypeDomainSuffix,
+		NetType:  NetTypeAdBlock,
+	},
+	{
+		Type:     RuleConfigTypeList,
 		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/reject-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeAdBlock,
