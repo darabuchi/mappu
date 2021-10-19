@@ -3594,6 +3594,7 @@ anakinweb.com
 analytictech.com
 analyze-v.com
 anandaminers.com
+anandtech.com
 anarchistan.com
 anb.org
 anchor.fm
@@ -4364,6 +4365,7 @@ auto-aufladen.de
 auto.freev2.top
 auto0391.com
 autocity.us
+autodesk.com
 autodiscover.se.com
 autodraw.com
 autoklean.co.uk
@@ -4423,6 +4425,7 @@ avfox.cc
 avg.com
 avgle.com
 avgo78.org
+avh.world
 avhd101.com
 avhot.cc
 avi78.com
@@ -4458,6 +4461,9 @@ avsox.host
 avsp2p.com
 avstry.com
 avt-global.com
+avxde.org
+avxhm.is
+avxlive.icu
 avyahoo.com
 aw
 aw15.iqi.asu.su
@@ -6720,6 +6726,7 @@ by.bnaz.org
 by.ddns.name
 byb8.app
 bybeatsdre.com
+bybit.com
 bydrebeats.com
 byedon.com
 bynet.co.il
@@ -8122,6 +8129,7 @@ coincola.com
 coinegg.com
 coinex.com
 coinf.com.mx
+coingecko.com
 coingi.com
 coinmarketcap.com
 coinonecore.com
@@ -12722,7 +12730,6 @@ fteproxy.org
 ftiecla.com
 ftopx.com
 ftp.cc
-ftp.com
 ftp1.biz
 ftpaccess.cc
 ftpserver.biz
@@ -12734,6 +12741,7 @@ ftvcash.com
 ftvgirls.com
 ftvin.com
 ftvnews.com.tw
+ftx.com
 fu2.club
 fu37.gq
 fu37.ml
@@ -12815,6 +12823,7 @@ full:d1k2us671qcoau.cloudfront.net
 full:d29vzk4ow07wi7.cloudfront.net
 full:d2anahhhmp1ffz.cloudfront.net
 full:database.asahi.com
+full:deutschewelle.h-cdn.com
 full:developer.microsoft.com
 full:developer.mozilla.org
 full:developers.facebook.com
@@ -15894,6 +15903,8 @@ imacsources.com
 image01.fenhao24.com
 image1.fmgstatic.com
 imageab.com
+imagecurl.com
+imagecurl.org
 imagefap.com
 imageflea.com
 imagegals.com
@@ -15909,6 +15920,7 @@ images.apple.com.edgekey.net.globalredir.akadns.net
 images.chesscomfiles.com
 images.comico.tw
 images.ptt.cc
+imageshack.com
 imageshack.us
 imagespost.com
 imagevenue.com
@@ -15938,6 +15950,7 @@ img.ly
 img1.hdmbox.com
 imgbb.com
 imgchili.net
+imgcrl.org
 imgflip.com
 imgix.com
 imgix.net
@@ -17737,6 +17750,7 @@ launchpadlibrarian.net
 launchpadlibrarian.org
 laurelvictoriagray.com
 lausan.hk
+lavteam.org
 law.moj.gov.tw
 lawofhongkong.com
 lawyerpu.com
@@ -18052,6 +18066,7 @@ lifeselector.com
 lifesitenews.com
 lifestylegroup.hk
 lifetimeshares.com
+lifewire.com
 lightbridge.com
 lighten.org.tw
 lighti.me
@@ -18818,6 +18833,8 @@ manorama.com
 manoramanews.com
 manoramaonline.com
 manosx.com
+manoto1.tv
+manototv.com
 manporn.xxx
 mansion.com
 mansion88.com
@@ -25399,6 +25416,8 @@ spfun.org
 sph7.djbcr68.com
 sphard.com
 spicevpn.com
+spiceworks.com
+spiceworksstatic.com
 spideroak.com
 spiedigitallibrary.org
 spiegel
@@ -26390,6 +26409,7 @@ techrepublic.com
 techsmith.com
 techspot.com
 techstreet.com
+techtimes.com
 techviz.net
 teck.in
 teco-hk.org
@@ -29108,6 +29128,7 @@ waiguoaccelerator.org
 waikeung.net
 waikeung.org
 wailaike.net
+wainao.me
 waiwaier.com
 wal-mart.com
 wal.co
@@ -35294,6 +35315,7 @@ xrn3.cat.flnet.org
 xs.domain888.pw
 xs.freepac.pw
 xs99.com
+xsava.xyz
 xscale.com
 xsden.info
 xsela.com
@@ -35953,6 +35975,7 @@ zara
 zarechnii.ru
 zattinni.com.br
 zattoo.com
+zavat.pw
 zavodjenje.com
 zb.app
 zb.com
