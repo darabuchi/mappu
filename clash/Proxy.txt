@@ -221,7 +221,6 @@ DOMAIN-SUFFIX,1024gc.com
 DOMAIN-SUFFIX,1024tvqrweb.com
 DOMAIN-SUFFIX,1024xp.com
 DOMAIN-SUFFIX,1024yingyuan.com
-DOMAIN-SUFFIX,103.hk
 DOMAIN-SUFFIX,10399888.com
 DOMAIN-SUFFIX,1042778.com
 DOMAIN-SUFFIX,1048.com
@@ -7677,7 +7676,6 @@ DOMAIN-SUFFIX,chromeexperiments.com
 DOMAIN-SUFFIX,chromegae.com
 DOMAIN-SUFFIX,chromeos.dev
 DOMAIN-SUFFIX,chromercise.com
-DOMAIN-SUFFIX,chromes.cn
 DOMAIN-SUFFIX,chromestatus.com
 DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,chromium.woolyss.com
@@ -10305,7 +10303,6 @@ DOMAIN-SUFFIX,dtwang.org
 DOMAIN-SUFFIX,du.narasmom.com
 DOMAIN-SUFFIX,du11hjcvx0uqb.cloudfront.net
 DOMAIN-SUFFIX,du3ghxbmxci1k.cloudfront.net
-DOMAIN-SUFFIX,duanzhihu.com
 DOMAIN-SUFFIX,dubandko.com
 DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,duc-tran.com
@@ -14330,7 +14327,6 @@ DOMAIN-SUFFIX,gucci
 DOMAIN-SUFFIX,gucci.com
 DOMAIN-SUFFIX,guccimuseo.com
 DOMAIN-SUFFIX,guccitimeless.com
-DOMAIN-SUFFIX,gufen138.com
 DOMAIN-SUFFIX,gufeng521.spaces.live.com
 DOMAIN-SUFFIX,gufensoso.com
 DOMAIN-SUFFIX,guge
@@ -17442,7 +17438,6 @@ DOMAIN-SUFFIX,kkkcp5.com
 DOMAIN-SUFFIX,kkkcp8.com
 DOMAIN-SUFFIX,kkkk99.net
 DOMAIN-SUFFIX,kkkxv.com
-DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,kkp.catholic.org.hk
 DOMAIN-SUFFIX,kkp.org.hk
 DOMAIN-SUFFIX,kksblog.com
@@ -18471,7 +18466,6 @@ DOMAIN-SUFFIX,lvcha888.com
 DOMAIN-SUFFIX,lvdp.net
 DOMAIN-SUFFIX,lvhai.org
 DOMAIN-SUFFIX,lvrj.com
-DOMAIN-SUFFIX,lvv2.com
 DOMAIN-SUFFIX,lwy6888.com
 DOMAIN-SUFFIX,lxofoxl.com
 DOMAIN-SUFFIX,ly
@@ -23615,7 +23609,6 @@ DOMAIN-SUFFIX,react.com
 DOMAIN-SUFFIX,reactjs.com
 DOMAIN-SUFFIX,reactjs.org
 DOMAIN-SUFFIX,reactos.org
-DOMAIN-SUFFIX,read01.com
 DOMAIN-SUFFIX,read100.com
 DOMAIN-SUFFIX,read9891.github.io
 DOMAIN-SUFFIX,reader.roodo.com
@@ -26288,7 +26281,6 @@ DOMAIN-SUFFIX,taobonfu.com
 DOMAIN-SUFFIX,taoism.net
 DOMAIN-SUFFIX,taolun.info
 DOMAIN-SUFFIX,tapanwap.com
-DOMAIN-SUFFIX,tapatalk.com
 DOMAIN-SUFFIX,tapbots.com
 DOMAIN-SUFFIX,tapbots.net
 DOMAIN-SUFFIX,tapestry.tapad.com
@@ -27604,7 +27596,6 @@ DOMAIN-SUFFIX,twelveweb.com
 DOMAIN-SUFFIX,twerkingbutt.com
 DOMAIN-SUFFIX,twftp.org
 DOMAIN-SUFFIX,twgngc.cnns.tw
-DOMAIN-SUFFIX,twgreatdaily.com
 DOMAIN-SUFFIX,twgreatnews.com
 DOMAIN-SUFFIX,twhawk.tw
 DOMAIN-SUFFIX,twibase.com
