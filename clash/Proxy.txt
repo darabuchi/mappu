@@ -3630,6 +3630,7 @@ DOMAIN-SUFFIX,aneisa.com
 DOMAIN-SUFFIX,anfutong.com
 DOMAIN-SUFFIX,angela-merkel.de
 DOMAIN-SUFFIX,angelblog.jp
+DOMAIN-SUFFIX,angelfire.com
 DOMAIN-SUFFIX,angelwind.tw
 DOMAIN-SUFFIX,angheliu.ro
 DOMAIN-SUFFIX,anglicanpastor.com
@@ -11819,7 +11820,6 @@ DOMAIN-SUFFIX,fbs.com
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,fbsbx.net
 DOMAIN-SUFFIX,fbsupport-covid.net
-DOMAIN-SUFFIX,fbthirdpartypixel.com
 DOMAIN-SUFFIX,fbthirdpartypixel.net
 DOMAIN-SUFFIX,fbthirdpartypixel.org
 DOMAIN-SUFFIX,fbu.sharepoint.com
