@@ -22,6 +22,10 @@
 	- 源: https://raw.githubusercontent.com/darabuchi/mappu/master/clash/conf.ini
 	- Dns: https://cdn.jsdelivr.net/gh/darabuchi/mappu@master/clash/conf.ini
 
+### 懒人食用指北
+> 在下面对应格式的url后加上你的节点link或订阅地址（多个使用 | 分割）
+- clash: http://sub.e8cf.ml/sub?target=clash&config=https://cdn.jsdelivr.net/gh/darabuchi/mappu@master/clash/conf.ini&url=
+
 ### 数据源
 
 - [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
