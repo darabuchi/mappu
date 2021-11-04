@@ -7384,6 +7384,7 @@ chase
 chase.com
 chat-test-app.firebaseio.com
 chat.stackexchange.com
+chatango.com
 chaterbate.com
 chatnook.com
 chatr
@@ -9447,6 +9448,9 @@ deconversion.org
 dedelu.com
 deepcoin.vip
 deeper.com
+deepfreeze.com
+deepfreeze.net
+deepfreeze.tech
 deepmind.com
 deepspace.jpl.nasa.gov
 deepthroatfrenzy.com
@@ -11741,6 +11745,10 @@ farfetch.net
 farm.tanosecure.com.tw
 farmatotal.cl
 farmers
+faronics.com
+faronics.tech
+faronicslabs.com
+faronicswise.com
 farsipod101.com
 fartit.com
 farumradio.com
@@ -12839,6 +12847,7 @@ full:elib.maruzen.co.jp
 full:espn.hb.omtrdc.net
 full:espndotcom.tt.omtrdc.net
 full:fandom.zendesk.com
+full:faronics.kayako.com
 full:fbcdn-a.akamaihd.net
 full:fontshop-prod-responsive-images.s3.amazonaws.com
 full:foxnewsplayer-a.akamaihd.net
@@ -16250,6 +16259,7 @@ internepedia.tk
 internet.org
 internetarchive.org
 internetdefenseleague.org
+internetdownloadmanager.com
 internetexplorer.co
 internetexplorer.com
 internetfreedom.org
@@ -23755,6 +23765,7 @@ regiongold.com
 regioninfo-pa.googleapis.com
 register.moex.gov.tw
 registerhulu.com
+registeridm.com
 registry.google
 rehabforum.org
 reimu.net
@@ -27073,6 +27084,7 @@ tomp2p.net
 tomshardware.com
 ton.twimg.com
 tonalla.com
+tonec.com
 tongil.or.kr
 tonni.cms4people.de
 tono-oka.jp
