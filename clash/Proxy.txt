@@ -11286,6 +11286,7 @@ DOMAIN-SUFFIX,expresswifi.com
 DOMAIN-SUFFIX,expxtv.com
 DOMAIN-SUFFIX,exrates.me
 DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,extensionworkshop.com
 DOMAIN-SUFFIX,extmatrix.com
 DOMAIN-SUFFIX,extra.voyantic.com
 DOMAIN-SUFFIX,extranet-logon-apac.sanofi.com
@@ -16848,6 +16849,7 @@ DOMAIN-SUFFIX,jessewilkinson.com
 DOMAIN-SUFFIX,jesus-army.com
 DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,jetbrains.net
+DOMAIN-SUFFIX,jetbrains.team
 DOMAIN-SUFFIX,jetfuelapp.com
 DOMAIN-SUFFIX,jetfuelapps.com
 DOMAIN-SUFFIX,jetgames.cf
