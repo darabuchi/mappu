@@ -13783,6 +13783,7 @@ DOMAIN-SUFFIX,goge.ml
 DOMAIN-SUFFIX,gogle.com
 DOMAIN-SUFFIX,gogo-load.com
 DOMAIN-SUFFIX,gogo2sex.com
+DOMAIN-SUFFIX,gogoanime.wiki
 DOMAIN-SUFFIX,gogocdn.net
 DOMAIN-SUFFIX,gogole.com
 DOMAIN-SUFFIX,gogotunnel.com
@@ -16771,6 +16772,7 @@ DOMAIN-SUFFIX,javhihi.com
 DOMAIN-SUFFIX,javhip.com
 DOMAIN-SUFFIX,javhub.net
 DOMAIN-SUFFIX,javhuge.com
+DOMAIN-SUFFIX,javlib.com
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,javme.me
 DOMAIN-SUFFIX,javmobile.net
