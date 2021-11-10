@@ -25897,6 +25897,7 @@ DOMAIN-SUFFIX,stxmosquitoproject.net
 DOMAIN-SUFFIX,stxmosquitoproject.org
 DOMAIN-SUFFIX,styrsky.com.ar
 DOMAIN-SUFFIX,su
+DOMAIN-SUFFIX,sub.cm
 DOMAIN-SUFFIX,sub.kamigami.org
 DOMAIN-SUFFIX,sub147.com
 DOMAIN-SUFFIX,subacme.rerouted.org
