@@ -8,3 +8,5 @@ zhenbuka.vip
 starrocks.com
 sourcegraph.com
 cdn.office.net
+portableapps.com
+cdn.portableapps.com
