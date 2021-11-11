@@ -9835,6 +9835,7 @@ aqstats.com
 aqtd.com
 aqtxt.com
 aquacity-tj.com
+aquanliang.com
 aquanutriera.com
 aquanyou.com
 aquapipetech.com
@@ -14063,6 +14064,7 @@ cdn.fun
 cdn.jsdelivr.net
 cdn.marketplaceimages.windowsphone.com
 cdn.office.net
+cdn.portableapps.com
 cdn.razersynapse.com
 cdn.samsung.com
 cdn.shanghai.nyu.edu
@@ -46038,6 +46040,7 @@ popziti.com
 poqsoft.com
 porlockz.com
 porschesky.com
+portableapps.com
 portablesoft.org
 portalcdn.cdnetworks.com
 portoflower.com
