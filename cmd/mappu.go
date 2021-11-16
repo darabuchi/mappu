@@ -42,7 +42,7 @@ func main() {
 
 		subconverter := func() string {
 			switch ruleType {
-			case RuleTypeDomainSuffix:
+			case RuleTypeDomain:
 				if strings.Contains(s, ".") {
 					return "DOMAIN-SUFFIX," + s
 				} else {
@@ -159,34 +159,34 @@ type RuleConfig struct {
 type RuleType string
 
 const (
-	RuleTypeDomainSuffix RuleType = "DomainSuffix"
-	RuleTypeCIDR         RuleType = "IpCidr"
-	RuleTypeProcessName  RuleType = "ProcessName"
+	RuleTypeDomain      RuleType = "Domain"
+	RuleTypeCIDR        RuleType = "IpCidr"
+	RuleTypeProcessName RuleType = "ProcessName"
 )
 
 var ruleConfigList = []RuleConfig{
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_DomainSuffix.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeDirect,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_DomainSuffix.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/cobaltdisco/Google-Chinese-Results-Blocklist/master/GHHbD_perma_ban_list.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeAdBlock,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeAdBlock,
 	},
 	{
@@ -198,43 +198,43 @@ var ruleConfigList = []RuleConfig{
 	{
 		Type:     RuleConfigTypeRuleProvider,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeRuleProvider,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/greatfire.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/cn-blocked-domain/release/domains.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
 		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt",
-		RuleType: RuleTypeDomainSuffix,
+		RuleType: RuleTypeDomain,
 		NetType:  NetTypeDirect,
 	},
 	{
