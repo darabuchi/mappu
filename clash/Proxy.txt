@@ -10112,6 +10112,7 @@ DOMAIN-SUFFIX,deeper.com
 DOMAIN-SUFFIX,deepfreeze.com
 DOMAIN-SUFFIX,deepfreeze.net
 DOMAIN-SUFFIX,deepfreeze.tech
+DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepspace.jpl.nasa.gov
 DOMAIN-SUFFIX,deepthroatfrenzy.com
@@ -14190,7 +14191,6 @@ DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubhackathon.com
-DOMAIN-SUFFIX,githubmemory.com
 DOMAIN-SUFFIX,githubpreview.dev
 DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubuniverse.com
@@ -17255,7 +17255,6 @@ DOMAIN-SUFFIX,javhihi.com
 DOMAIN-SUFFIX,javhip.com
 DOMAIN-SUFFIX,javhub.net
 DOMAIN-SUFFIX,javhuge.com
-DOMAIN-SUFFIX,javlib.com
 DOMAIN-SUFFIX,javlibrary.com
 DOMAIN-SUFFIX,javme.me
 DOMAIN-SUFFIX,javmobile.net
@@ -26051,7 +26050,6 @@ DOMAIN-SUFFIX,stxmosquitoproject.com
 DOMAIN-SUFFIX,stxmosquitoproject.net
 DOMAIN-SUFFIX,stxmosquitoproject.org
 DOMAIN-SUFFIX,styrsky.com.ar
-DOMAIN-SUFFIX,sub.cm
 DOMAIN-SUFFIX,sub.kamigami.org
 DOMAIN-SUFFIX,sub147.com
 DOMAIN-SUFFIX,subacme.rerouted.org

@@ -9452,6 +9452,7 @@ deeper.com
 deepfreeze.com
 deepfreeze.net
 deepfreeze.tech
+deepl.com
 deepmind.com
 deepspace.jpl.nasa.gov
 deepthroatfrenzy.com
@@ -13622,7 +13623,6 @@ github.io
 githubapp.com
 githubassets.com
 githubhackathon.com
-githubmemory.com
 githubpreview.dev
 githubstatus.com
 githubuniverse.com
@@ -16773,7 +16773,6 @@ javhihi.com
 javhip.com
 javhub.net
 javhuge.com
-javlib.com
 javlibrary.com
 javme.me
 javmobile.net
@@ -25899,7 +25898,6 @@ stxmosquitoproject.net
 stxmosquitoproject.org
 styrsky.com.ar
 su
-sub.cm
 sub.kamigami.org
 sub147.com
 subacme.rerouted.org
