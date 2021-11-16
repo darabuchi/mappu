@@ -4361,6 +4361,7 @@ DOMAIN-SUFFIX,authorizeddns.net
 DOMAIN-SUFFIX,authorizeddns.org
 DOMAIN-SUFFIX,authorizeddns.us
 DOMAIN-SUFFIX,authorxml.com
+DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,auto-aufladen.de
 DOMAIN-SUFFIX,auto.freev2.top
 DOMAIN-SUFFIX,auto0391.com

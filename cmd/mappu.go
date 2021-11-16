@@ -43,7 +43,12 @@ func main() {
 		subconverter := func() string {
 			switch ruleType {
 			case RuleTypeDomainSuffix:
-				return "DOMAIN-SUFFIX," + s
+				if strings.Contains(s, ".") {
+					return "DOMAIN-SUFFIX," + s
+				} else {
+					return "DOMAIN," + s
+				}
+
 			case RuleTypeCIDR:
 				ip, _, err := net.ParseCIDR(s)
 				if err != nil {
@@ -180,61 +185,61 @@ var ruleConfigList = []RuleConfig{
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/reject-list.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeAdBlock,
 	},
 	{
 		Type:     RuleConfigTypeRuleProviderCIDR,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeRuleProvider,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/proxy-list.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/proxy-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeRuleProvider,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/greatfire.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/greatfire.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/gfw.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/cn-blocked-domain@release/domains.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/cn-blocked-domain/release/domains.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeProxy,
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/direct-list.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/direct-list.txt",
 		RuleType: RuleTypeDomainSuffix,
 		NetType:  NetTypeDirect,
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/CN-ip-cidr.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},
@@ -246,7 +251,7 @@ var ruleConfigList = []RuleConfig{
 	},
 	{
 		Type:     RuleConfigTypeRuleProviderCIDR,
-		FileUrl:  "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt",
+		FileUrl:  "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt",
 		RuleType: RuleTypeCIDR,
 		NetType:  NetTypeDirect,
 	},

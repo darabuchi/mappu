@@ -4361,6 +4361,7 @@ authorizeddns.net
 authorizeddns.org
 authorizeddns.us
 authorxml.com
+authy.com
 auto-aufladen.de
 auto.freev2.top
 auto0391.com
