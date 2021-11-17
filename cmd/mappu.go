@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/darabuchi/enputi/utils"
+	"github.com/darabuchi/utils"
 	"github.com/eddieivan01/nic"
 	"github.com/elliotchance/pie/pie"
 	log "github.com/sirupsen/logrus"
@@ -14,6 +14,13 @@ import (
 	"strings"
 )
 
+type RuleConfigInfo struct {
+	RuleType RuleType
+	NetType  NetType
+
+	Data pie.Strings
+}
+
 func main() {
 	baseDir := filepath.Join(utils.GetConfigDir(), "rule")
 	if !utils.FileExists(baseDir) {
@@ -24,10 +31,9 @@ func main() {
 		}
 	}
 
-	out := map[string]pie.Strings{}
 	existMap := map[string]bool{}
 
-	clashMap := map[NetType]pie.Strings{}
+	ruleMap := map[string]*RuleConfigInfo{}
 
 	add := func(s string, ruleType RuleType, netType NetType) {
 		if existMap[s] {
@@ -38,38 +44,18 @@ func main() {
 			existMap[s] = true
 		}()
 
-		out[fmt.Sprintf("%s_%s", netType, ruleType)] = append(out[fmt.Sprintf("%s_%s", netType, ruleType)], s)
+		ruleKey := fmt.Sprintf("%s_%s", netType, ruleType)
 
-		subconverter := func() string {
-			switch ruleType {
-			case RuleTypeDomain:
-				if strings.Contains(s, ".") {
-					return "DOMAIN-SUFFIX," + s
-				} else {
-					return "DOMAIN," + s
-				}
-
-			case RuleTypeCIDR:
-				ip, _, err := net.ParseCIDR(s)
-				if err != nil {
-					log.Errorf("err:%v", err)
-					return ""
-				}
-
-				if ip.To4() != nil {
-					return "IP-CIDR," + s + ",no-resolve"
-				}
-				return "IP-CIDR6," + s + ",no-resolve"
-			case RuleTypeProcessName:
-				return "PROCESS-NAME," + s
-			default:
-				return ""
+		if _, ok := ruleMap[ruleKey]; !ok {
+			ruleMap[ruleKey] = &RuleConfigInfo{
+				RuleType: ruleType,
+				NetType:  netType,
+				Data:     []string{},
 			}
 		}
-
-		clashMap[netType] = append(clashMap[netType], subconverter())
 	}
 
+	// 整理原始数据到内部的数据格式
 	for _, val := range ruleConfigList {
 		switch val.Type {
 		case RuleConfigTypeList:
@@ -111,23 +97,81 @@ func main() {
 		}
 	}
 
-	for fileName, data := range out {
-		err := utils.FileWrite(fileName+".txt", data.FilterNot(func(s string) bool {
-			return s == ""
-		}).Sort().Join("\n"))
-		if err != nil {
-			log.Errorf("err:%v", err)
-			continue
+	// 做数据合并和数据压缩
+	for _, ruleInfo := range ruleMap {
+		if ruleInfo.RuleType == RuleTypeCIDR {
+			data, err := utils.MergeCIDRs(ruleInfo.Data)
+			if err != nil {
+				log.Errorf("err:%v", err)
+			} else {
+				ruleInfo.Data = data
+			}
 		}
 	}
 
-	for fileName, data := range clashMap {
-		err := utils.FileWrite("clash/"+string(fileName)+".txt", data.FilterNot(func(s string) bool {
-			return s == ""
-		}).Sort().Join("\n"))
-		if err != nil {
-			log.Errorf("err:%v", err)
-			continue
+	// 正常的数据数据
+	{
+
+		for _, ruleInfo := range ruleMap {
+			fileName := fmt.Sprintf("%s_%s.txt", ruleInfo.NetType, ruleInfo.RuleType)
+			err := utils.FileWrite(
+				fileName,
+				ruleInfo.Data.
+					FilterNot(func(s string) bool {
+						return s == ""
+					}).Sort().Join("\n"),
+			)
+			if err != nil {
+				log.Errorf("err:%v", err)
+				continue
+			}
+		}
+	}
+
+	// clash的数据
+	{
+		for _, ruleInfo := range ruleMap {
+			fileName := fmt.Sprintf("clash/%s.txt", ruleInfo.NetType)
+
+			var data pie.Strings
+
+			switch ruleInfo.RuleType {
+			case RuleTypeDomain:
+				ruleInfo.Data.Each(func(s string) {
+					if strings.Contains(s, ".") {
+						data = append(data, "DOMAIN-SUFFIX,"+s)
+					} else {
+						data = append(data, "DOMAIN,"+s)
+					}
+				})
+
+			case RuleTypeCIDR:
+				ruleInfo.Data.Each(func(s string) {
+					ip, _, err := net.ParseCIDR(s)
+					if err != nil {
+						log.Errorf("err:%v", err)
+					} else if ip.To4() != nil {
+						data = append(data, "IP-CIDR,"+s)
+					} else if ip.To16() != nil {
+						data = append(data, "IP-CIDR6,"+s)
+					}
+				})
+			default:
+				ruleInfo.Data.Each(func(s string) {
+					data = append(data, string(ruleInfo.RuleType)+","+s)
+				})
+			}
+
+			err := utils.FileWrite(
+				fileName,
+				data.FilterNot(func(s string) bool {
+					return s == ""
+				}).Sort().Join("\n"),
+			)
+			if err != nil {
+				log.Errorf("err:%v", err)
+				continue
+			}
 		}
 	}
 }
@@ -161,7 +205,7 @@ type RuleType string
 const (
 	RuleTypeDomain      RuleType = "Domain"
 	RuleTypeCIDR        RuleType = "IpCidr"
-	RuleTypeProcessName RuleType = "ProcessName"
+	RuleTypeProcessName RuleType = "PROCESS-NAME"
 )
 
 var ruleConfigList = []RuleConfig{
