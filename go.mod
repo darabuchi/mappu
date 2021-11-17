@@ -3,7 +3,7 @@ module github.com/darabuchi/mappu
 go 1.17
 
 require (
-	github.com/darabuchi/utils v0.0.0-20211117061559-1139c1169b1e
+	github.com/darabuchi/utils v0.0.0-20211117081615-ceede79e5476
 	github.com/eddieivan01/nic v0.3.1
 	github.com/elliotchance/pie v1.38.2
 	github.com/sirupsen/logrus v1.8.1

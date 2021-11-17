@@ -115,8 +115,6 @@ func main() {
 	{
 
 		for _, ruleInfo := range ruleMap {
-			log.Info(ruleInfo.RuleType)
-			log.Info(len(ruleInfo.Data))
 			fileName := fmt.Sprintf("%s_%s.txt", ruleInfo.NetType, ruleInfo.RuleType)
 			err := utils.FileWrite(
 				fileName,
@@ -219,13 +217,13 @@ const (
 var ruleConfigList = []RuleConfig{
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_DomainSuffix.txt",
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Direct_Domain.txt",
 		RuleType: RuleTypeDomain,
 		NetType:  NetTypeDirect,
 	},
 	{
 		Type:     RuleConfigTypeList,
-		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_DomainSuffix.txt",
+		FileUrl:  "https://raw.githubusercontent.com/darabuchi/mappu/master/serufu/Proxy_Domain.txt",
 		RuleType: RuleTypeDomain,
 		NetType:  NetTypeProxy,
 	},
