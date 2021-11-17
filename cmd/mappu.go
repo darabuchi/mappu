@@ -7,6 +7,7 @@ import (
 	"github.com/elliotchance/pie/pie"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
+	"io/fs"
 	"net"
 	"net/http"
 	"os"
@@ -132,13 +133,20 @@ func main() {
 
 	// clash的数据
 	{
-		err := os.RemoveAll("clash")
-		if err != nil {
-			log.Errorf("err:%v", err)
-			return
-		}
 
-		err = os.MkdirAll("clash", 0777)
+		err := filepath.WalkDir("clash", func(path string, d fs.DirEntry, err error) error {
+			if filepath.Ext(path) != ".txt" {
+				return nil
+			}
+
+			err = os.Remove(path)
+			if err != nil {
+				log.Errorf("err:%v", err)
+				return err
+			}
+
+			return nil
+		})
 		if err != nil {
 			log.Errorf("err:%v", err)
 			return
@@ -180,11 +188,11 @@ func main() {
 				})
 			}
 
-			err := utils.FileAppend(
+			err = utils.FileAppend(
 				fileName,
 				data.FilterNot(func(s string) bool {
 					return s == ""
-				}).Sort().Join("\n"),
+				}).Sort().Join("\n")+"\n",
 			)
 			if err != nil {
 				log.Errorf("err:%v", err)
@@ -340,6 +348,7 @@ func getOrUpdateRule(fileUrl string) string {
 		Timeout:       60,
 		Chunked:       true,
 		SkipVerifyTLS: true,
+		Proxy:         "socket5://127.0.0.1:7890",
 	})
 	if err != nil {
 		log.Errorf("err:%v", err)
