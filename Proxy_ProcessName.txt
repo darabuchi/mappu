@@ -1,2 +1,0 @@
-Telegram.exe
-bitcoin-qt.exe

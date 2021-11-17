@@ -53,6 +53,8 @@ func main() {
 				Data:     []string{},
 			}
 		}
+
+		ruleMap[ruleKey].Data = append(ruleMap[ruleKey].Data, s)
 	}
 
 	// 整理原始数据到内部的数据格式
@@ -113,6 +115,8 @@ func main() {
 	{
 
 		for _, ruleInfo := range ruleMap {
+			log.Info(ruleInfo.RuleType)
+			log.Info(len(ruleInfo.Data))
 			fileName := fmt.Sprintf("%s_%s.txt", ruleInfo.NetType, ruleInfo.RuleType)
 			err := utils.FileWrite(
 				fileName,
@@ -155,6 +159,10 @@ func main() {
 					} else if ip.To16() != nil {
 						data = append(data, "IP-CIDR6,"+s)
 					}
+				})
+			case RuleTypeProcessName:
+				ruleInfo.Data.Each(func(s string) {
+					data = append(data, "PROCESS-NAME,"+s)
 				})
 			default:
 				ruleInfo.Data.Each(func(s string) {
@@ -205,7 +213,7 @@ type RuleType string
 const (
 	RuleTypeDomain      RuleType = "Domain"
 	RuleTypeCIDR        RuleType = "IpCidr"
-	RuleTypeProcessName RuleType = "PROCESS-NAME"
+	RuleTypeProcessName RuleType = "ProcessName"
 )
 
 var ruleConfigList = []RuleConfig{
