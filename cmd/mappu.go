@@ -348,7 +348,6 @@ func getOrUpdateRule(fileUrl string) string {
 		Timeout:       60,
 		Chunked:       true,
 		SkipVerifyTLS: true,
-		Proxy:         "socket5://127.0.0.1:7890",
 	})
 	if err != nil {
 		log.Errorf("err:%v", err)
