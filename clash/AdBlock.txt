@@ -22087,7 +22087,6 @@ DOMAIN-SUFFIX,giroud.top
 DOMAIN-SUFFIX,git.emarketing724.com
 DOMAIN-SUFFIX,gitechiphy.pro
 DOMAIN-SUFFIX,gitgrub.pro
-DOMAIN-SUFFIX,githubmemory.com
 DOMAIN-SUFFIX,gitishcreasu.info
 DOMAIN-SUFFIX,gitma.info
 DOMAIN-SUFFIX,gitoku.com
