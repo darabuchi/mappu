@@ -1,8 +1,8 @@
 github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394 h1:OYA+5W64v3OgClL+IrOD63t4i/RW7RqrAVl9LTZ9UqQ=
 github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394/go.mod h1:Q8n74mJTIgjX4RBBcHnJ05h//6/k6foqmgE45jTQtxg=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
-github.com/darabuchi/utils v0.0.0-20211117081615-ceede79e5476 h1:Jyb+dTWUIaGn/hPJhOtxwu27x79Nm89303SKUqoPFo4=
-github.com/darabuchi/utils v0.0.0-20211117081615-ceede79e5476/go.mod h1:Xz0vfypP88yi19mMd22ykAyXysqOQhjwcc8vvmOzZ18=
+github.com/darabuchi/utils v0.0.0-20211117082427-cfd9f917037d h1:hOieOENT1WML6kcKm/VzVfrr4OGO9UowETdoQf2dIVs=
+github.com/darabuchi/utils v0.0.0-20211117082427-cfd9f917037d/go.mod h1:Xz0vfypP88yi19mMd22ykAyXysqOQhjwcc8vvmOzZ18=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

@@ -132,6 +132,18 @@ func main() {
 
 	// clash的数据
 	{
+		err := os.RemoveAll("clash")
+		if err != nil {
+			log.Errorf("err:%v", err)
+			return
+		}
+
+		err = os.MkdirAll("clash", 0777)
+		if err != nil {
+			log.Errorf("err:%v", err)
+			return
+		}
+
 		for _, ruleInfo := range ruleMap {
 			fileName := fmt.Sprintf("clash/%s.txt", ruleInfo.NetType)
 
@@ -168,7 +180,7 @@ func main() {
 				})
 			}
 
-			err := utils.FileWrite(
+			err := utils.FileAppend(
 				fileName,
 				data.FilterNot(func(s string) bool {
 					return s == ""
