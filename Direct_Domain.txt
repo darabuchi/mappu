@@ -9835,7 +9835,6 @@ aqstats.com
 aqtd.com
 aqtxt.com
 aquacity-tj.com
-aquanliang.com
 aquanutriera.com
 aquanyou.com
 aquapipetech.com
@@ -14063,8 +14062,6 @@ cdn-v.com
 cdn.fun
 cdn.jsdelivr.net
 cdn.marketplaceimages.windowsphone.com
-cdn.office.net
-cdn.portableapps.com
 cdn.razersynapse.com
 cdn.samsung.com
 cdn.shanghai.nyu.edu
@@ -19342,7 +19339,6 @@ deepin.org
 deepinghost.com
 deepinmind.com
 deepinos.org
-deepl.com
 deepleaper.com
 deeplearn.me
 deepoon.com
@@ -46038,7 +46034,6 @@ popziti.com
 poqsoft.com
 porlockz.com
 porschesky.com
-portableapps.com
 portablesoft.org
 portalcdn.cdnetworks.com
 portoflower.com
@@ -52381,7 +52376,6 @@ souqupu.com
 source3g.com
 sourcecodecap.com
 sourcedev.cc
-sourcegraph.com
 sousea.com
 soushai.com
 soushuking.com
@@ -52702,7 +52696,6 @@ starming.com
 starpainters.net
 starparkshenzhen.com
 starpiao.com
-starrocks.com
 starrtc.com
 starrysurvey.com
 starschina.com
@@ -67381,12 +67374,6 @@ zhenai.com
 zhenaoyaoye.com
 zhenbi.com
 zhenbizi.com
-zhenbuka.vip
-zhenbuka1.com
-zhenbuka2.com
-zhenbuka3.com
-zhenbuka4.com
-zhenbuka5.com
 zhenchenglong.com
 zhending-chicken.com
 zhenfang.me
