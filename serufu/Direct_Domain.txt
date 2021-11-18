@@ -11,3 +11,4 @@ cdn.office.net
 portableapps.com
 cdn.portableapps.com
 aquanliang.com
+sharepoint.com
