@@ -160,11 +160,11 @@ func main() {
 			switch ruleInfo.RuleType {
 			case RuleTypeDomain:
 				ruleInfo.Data.Each(func(s string) {
-					if strings.Contains(s, ".") {
-						data = append(data, "DOMAIN-SUFFIX,"+s)
-					} else {
-						data = append(data, "DOMAIN,"+s)
-					}
+					//if strings.Contains(s, ".") {
+					data = append(data, "DOMAIN-SUFFIX,"+s)
+					//} else {
+					//	data = append(data, "DOMAIN,"+s)
+					//}
 				})
 
 			case RuleTypeCIDR:
