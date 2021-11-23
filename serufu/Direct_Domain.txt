@@ -12,3 +12,4 @@ portableapps.com
 cdn.portableapps.com
 aquanliang.com
 sharepoint.com
+feishu.cn
