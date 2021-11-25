@@ -161,7 +161,7 @@ func main() {
 			case RuleTypeDomain:
 				ruleInfo.Data.Each(func(s string) {
 					//if strings.Contains(s, ".") {
-					data = append(data, "DOMAIN-SUFFIX,"+s)
+					data = append(data, "DOMAIN-KEYWORD,"+s)
 					//} else {
 					//	data = append(data, "DOMAIN,"+s)
 					//}
