@@ -163,7 +163,7 @@ func main() {
 					if strings.Contains(s, ".") {
 						data = append(data, "DOMAIN-SUFFIX,"+s)
 					} else {
-						data = append(data, "DOMAIN-KEYWORD,"+s)
+						data = append(data, "DOMAIN,"+s)
 					}
 				})
 
