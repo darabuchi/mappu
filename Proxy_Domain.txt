@@ -2632,6 +2632,8 @@
 9afd1.com
 9agz1.com
 9aje1.com
+9anime.id
+9anime.ws
 9bac1.com
 9bam1.com
 9bas1.com
@@ -3641,6 +3643,7 @@ anhqv.es
 anidom.com
 anime-sharing.com
 animecrazy.net
+animedao-tv.com
 animedreaming.tv
 animezilla.com
 aniscartujo.com
@@ -6263,6 +6266,7 @@ booms.cc
 boomss.cc
 boomssr.com
 boostmobile.com
+booth.pm
 boots
 bootstrapcdn.com
 borderexperience.weebly.com
@@ -9764,6 +9768,7 @@ disk.yandex.com
 disney-asia.com
 disney-discount.com
 disney-plus.net
+disney-portal.my.onetrust.com
 disney-studio.com
 disney-studio.net
 disney.asia
@@ -9773,6 +9778,7 @@ disney.com
 disney.id
 disney.io
 disney.it
+disney.my.sentry.io
 disney.pt
 disneyadsales.com
 disneyarena.com
@@ -9799,6 +9805,7 @@ disneymusicpromotion.com
 disneynewseries.com
 disneynow.com
 disneypeoplesurveys.com
+disneyplus.bn5x.net
 disneyplus.com
 disneyredirects.com
 disneysrivieraresort.com
@@ -11707,6 +11714,7 @@ famunion.com
 fan-qiang.com
 fanarchive.campfirenow.com
 fanatical.com
+fanbox.cc
 fancy7.com
 fandango.com
 fandom.com
@@ -13046,6 +13054,7 @@ fundfire.com
 fundpaypal.com
 fundraisingwithfacebook.com
 funf.tw
+funimation.com
 funkyimg.com
 funny-games.biz
 funnyfacebook.org
@@ -14859,6 +14868,7 @@ hidemytraxproxy.ca
 hidess.com
 hidester.com
 hidethisip.net
+hidive.com
 hifacebook.info
 higfw.com
 higginbotham.name
@@ -16853,6 +16863,7 @@ jessewilkinson.com
 jesus-army.com
 jetbrains.com
 jetbrains.net
+jetbrains.space
 jetbrains.team
 jetfuelapp.com
 jetfuelapps.com
@@ -28978,6 +28989,7 @@ vrchat.net
 vrmtr.com
 vrsmash.com
 vrt.be
+vrv.co
 vs8866.com
 vs8989.com
 vs9933.com
