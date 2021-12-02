@@ -7078,6 +7078,7 @@ cashpassport.net
 cashpassportglobe.com
 cashwork.kangdi-pay.com
 casi998.com
+casimages.com
 casino.kto.asia
 casino.williamhill.com
 casinobellini.com
@@ -7916,6 +7917,8 @@ cloudfunctions.net
 cloudhealthtech.com
 cloudimage.io
 cloudimg.io
+cloudinary.com
+cloudinary.net
 cloudinsights.com
 cloudlive.com
 cloudlock.com
@@ -19317,6 +19320,7 @@ microsoft.io
 microsoft.is
 microsoft.it
 microsoft.lv
+microsoft.net
 microsoft.pt
 microsoft.red
 microsoft.rs
@@ -22843,6 +22847,8 @@ postadult.com
 postandcourier.com
 postgresql.org
 posthentai.com
+postimages.org
+postimg.cc
 postimg.org
 postini.com
 postnl.nl
