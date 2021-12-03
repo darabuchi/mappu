@@ -16242,6 +16242,9 @@ inteliotmarketplace.com
 intell.com
 intellearningseries.com
 intellij-support.jetbrains.com
+intellij.com
+intellij.net
+intellij.org
 intellinuxgraphics.com
 intellinuxgraphics.net
 intellinuxwireless.net
@@ -22976,6 +22979,7 @@ privatix.com
 privatoria.net
 privein.com
 privnote.com
+privoxy.org
 prntube.com
 pro.eimi.vip
 pro.tribeofnoise.com
