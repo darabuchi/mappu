@@ -17,4 +17,3 @@ mitm.plus
 sspai.com
 bilibili.com
 baidu.com
-pndsn.com
