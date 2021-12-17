@@ -24003,6 +24003,7 @@ full:adservice.google.com
 full:amp-api-search-edge.apps.apple.com
 full:amp-api.apps.apple.com
 full:aod.itunes.apple.com
+full:api-cn.apple-mapkit.com
 full:api-edge.apps.apple.com
 full:app-measurement.com
 full:appldnld.apple.com
@@ -26894,6 +26895,7 @@ hackhp.com
 hackhw.com
 hacking-linux.com
 hacking8.com
+hackinn.com
 hackline.net
 hacknical.com
 hackp.com
@@ -47746,6 +47748,7 @@ refined-x.com
 reformdata.org
 refractorywin.com
 reg007.com
+regexp:^(.+\.)*zh\.okaapps\.com$
 regexp:^a[1-5]\.mzstatic\.com$
 regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$
 regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
