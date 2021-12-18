@@ -25752,7 +25752,6 @@ static.iwincdn.com
 static.palgrave.com
 static.pubu.tw
 static.shemalez.com
-static.techspot.com
 static01.nyt.com
 staticflickr.com
 statkit.com
@@ -27794,6 +27793,7 @@ typenetwork.com
 typepad.com
 typesquare.com
 typography.com
+typora.io
 tz
 u.cc.st
 u.f-q.me
