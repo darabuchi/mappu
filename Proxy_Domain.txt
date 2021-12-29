@@ -14605,6 +14605,7 @@ haskell.org
 haskellstack.org
 haswel.com
 hasznaltauto.hu
+hath.network
 hatsiklopedia.org
 hautelook.com
 hautelookcdn.com
@@ -14759,6 +14760,7 @@ hentai.as
 hentai.to
 hentai.xxx
 hentai4manga.com
+hentaiathome.net
 hentaicloud.com
 hentaifox.com
 hentaigasm.com
