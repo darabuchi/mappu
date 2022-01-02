@@ -8107,7 +8107,6 @@ app.adjust.io
 app.adjust.net.in
 app.adjust.world
 app.airtrack.jp
-app.chat.xiaomi.net
 app.crossengage.io
 app.datafastguru.info
 app.fancifulapp.cool
@@ -8448,6 +8447,7 @@ art-photo-music-rewardempire.com
 art-photo-music-savingblvd.com
 artandand.online
 artantash.club
+artbluesea.xyz
 artefact.is
 artemisaffiliates.com
 artfin.club
@@ -9237,6 +9237,7 @@ b41.xyz
 b42rracj.com
 b44a98d1901e5b7.com
 b477.life
+b49.xyz
 b4q982rbqdsw.com
 b52.win
 b57acfcd767.com
@@ -10248,6 +10249,7 @@ belierlaine.com
 believeduphold.com
 believegrandpa.com
 believeicanm.biz
+believersheet.com
 bellaads.com
 bellevuewatourism.com
 belmonhezamil.pro
@@ -11625,6 +11627,7 @@ bs.israelinfo.ru
 bs.orsk.ru
 bs.url.tw
 bs.yandex.ru
+bs987.cn
 bsaq5.cn
 bsbopag.cn
 bsdaban.com
@@ -12657,6 +12660,7 @@ cchfjz.com
 cchvc.net
 ccioo.vip
 ccjudian.com
+ccjxwlkj.com
 ccjxybj.cn
 ccjysdii.xyz
 cckgate.com
@@ -13647,6 +13651,7 @@ click.bokecc.com
 click.cartsguru.io
 click.cision.com
 click.eclk.club
+click.em.blizzard.com
 click.email.bbc.com
 click.email.sonos.com
 click.fivemtn.com
@@ -17238,6 +17243,7 @@ dhundora.com
 dhxuiho.cn
 dhxyzx.cn
 dhygr.com
+dhyns.cn
 di-capt.com
 di2xwvxz1jrvu.cloudfront.net
 di7stero.com
@@ -30906,6 +30912,7 @@ madvertise.de
 madyna.ru
 maebtjn.com
 maegkrquttm.xyz
+mafengow.club
 magariusaqmuri.cf
 magazinescontaining.com
 magdove.xyz
@@ -33113,6 +33120,7 @@ msnm.com
 msnsearch.srv.girafa.com
 msonebox.com
 msparktrk.com
+msri.club
 msrv.su
 mstat.acestream.net
 mstat.ga
@@ -40115,6 +40123,7 @@ qyjzleh.cn
 qyqc4s.com
 qyqstore.com
 qysyyg.com
+qytkjsz.com
 qytyf.com
 qyxwfe.com
 qz.informs.com
@@ -41061,7 +41070,6 @@ resolutioncomplexionfinishing.com
 resolutionsbox.com
 resolvedweighpasswords.com
 resolver.gslb.mi-idc.com
-resolver.msg.xiaomi.net
 resolvingserver.com
 reson8.com
 resonance.pk
@@ -55531,6 +55539,7 @@ ygqukhllchpw.com
 ygsm.com
 ygtnn.cn
 ygtt.mobi
+ygtx.mobi
 ygudtbdnhkhlmkd.xyz
 ygunaf.biz
 yguuoibdsscki.com
@@ -55602,6 +55611,7 @@ yim3eyv5.top
 yimai51.cn
 yimd.vip
 yimeize.cn
+yinan.tech
 yingfulook.cn
 yingge.fun
 yingjiawm.com
@@ -56879,6 +56889,7 @@ zxucii.com
 zxvvcvd.cn
 zxxds.net
 zxxtkrkzfyy3.com
+zxyonlybelongstolym.xyz
 zy16eoat1w.com
 zyam.club
 zyban-store.shengen.ru
