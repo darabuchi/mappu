@@ -473,7 +473,6 @@
 05935.com
 0593666.com
 0594.com
-059400.com
 0595job.com
 0595rc.com
 0596fc.com
@@ -9594,6 +9593,7 @@ aqdog.com
 aqdstatic.com
 aqee.net
 aqfen.com
+aqhbq.com
 aqhuayu.com
 aqidb.org
 aqioo.com
@@ -10127,6 +10127,7 @@ b2b6.com
 b2b98.net
 b2baa.com
 b2bic.com
+b2bname.com
 b2bneican.com
 b2bvip.com
 b2bvip.net
@@ -12940,7 +12941,6 @@ c-sz.com
 c-t.work
 c-yl.com
 c.team
-c0de4fun.com
 c0ks.com
 c1042.com
 c1ass.com
@@ -21539,7 +21539,6 @@ ehealthcareforum.com
 ehedco.com
 ehiman.com
 ehinvest.hk
-ehn3.com
 ehome5.com
 ehome8.com
 ehomeclouds.com
@@ -22418,6 +22417,7 @@ facecloud.net
 faceh5.com
 facehufu.com
 faceid.com
+faceminiproject.online
 faceplusplus.com
 faceu.com
 faceu.mobi
@@ -22748,7 +22748,6 @@ faxeye.com
 faxingchina.com
 faxingcn.com
 faxingnet.com
-faxingshuo.com
 faxingsj.com
 faxingtp.com
 faxingtupian.com
@@ -23118,6 +23117,7 @@ ffeeii.com
 ffepower.com
 fffzgh.com
 ffis.me
+ffjd1.com
 ffmarket.com
 ffmulu.com
 ffpedia.com
@@ -24846,6 +24846,7 @@ gdkz88.com
 gdlins.com
 gdliontech.com
 gdlppow.com
+gdlsgz.com
 gdmappress.com
 gdmingshizx.com
 gdmm.com
@@ -34139,6 +34140,7 @@ jmtd0531.com
 jmtsg.com
 jmxfw.com
 jmxw.net
+jmykw.com
 jmyna.net
 jmzcgs.com
 jmzns.com
@@ -36907,7 +36909,6 @@ lantian-hotel.com
 lantian.tv
 lantinglou.com
 lantingmingjia.com
-lantouzi.com
 lantunyouxi.com
 lanuss.com
 lanvige.com
@@ -37567,7 +37568,6 @@ lhdyfc.com
 lhflh.com
 lhggjd.org
 lhh.la
-lhidc.net
 lhlqw.com
 lhm8.com
 lhrbszb.com
@@ -41038,7 +41038,6 @@ mlycdn.com
 mlyfc.net
 mlyfcyy.com
 mlzcn.com
-mm.cc
 mm.com
 mm111.net
 mm12581.com
@@ -42234,6 +42233,7 @@ nanshifaxing.com
 nantaihu.com
 nantongbike.com
 nantonghua.net
+nantongle.com
 nanxueqx.com
 nanxunjob.com
 nanyangcable.com
@@ -51545,7 +51545,6 @@ spdiy.com
 spdiy.net
 spdl.com
 spdydns.com
-spe777.com
 specialcdnstatus.com
 speed-dns.cc
 speed-idc.com
@@ -52950,7 +52949,6 @@ taikr.com
 tainicement.net
 taipingyangyinshua.com
 taiqigame.com
-taiqingjiu.com
 tairan.com
 taishangshiwu.com
 taishenghb.com
@@ -57206,7 +57204,6 @@ wangye.com
 wangyin.com
 wangyou.com
 wangyou2.com
-wangyq.com
 wangyuan.com
 wangyuegame.com
 wangyutang.com
@@ -59141,6 +59138,7 @@ wozhuye.com
 woziku.com
 wp-china-yes.net
 wp-h.com
+wp10.cc
 wpan123.com
 wpceo.com
 wpchina.org
@@ -65460,6 +65458,7 @@ zaeke.com
 zahtb.com
 zahuibaike.com
 zahuishi.com
+zai-art.com
 zaibei.net
 zaichengdu.com
 zaidu.la
@@ -66029,6 +66028,7 @@ zhangfensir.com
 zhanggang.net
 zhanggao.club
 zhanggaoyuan.com
+zhanggee.com
 zhanghaijun.com
 zhanghongliang.com
 zhanghuanglong.com
@@ -67266,7 +67266,6 @@ zjimpact.com
 zjipc.com
 zjj17u.com
 zjj21.com
-zjj588.com
 zjjd.org
 zjjdamuzhi.com
 zjjgcyz.com
