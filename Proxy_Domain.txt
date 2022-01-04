@@ -14786,7 +14786,6 @@ heroku-charge.com
 heroku.co
 heroku.com
 heroku.me
-herokuapp.com
 herokucdn.com
 herokucharge.com
 herokussl.com
@@ -26333,6 +26332,7 @@ taobonfu.com
 taoism.net
 taolun.info
 tapanwap.com
+tapatalk.com
 tapbots.com
 tapbots.net
 tapestry.tapad.com
@@ -35388,7 +35388,6 @@ xuanleba2014.com
 xuchao.net
 xuchao.org
 xuehaiblog.com
-xuehua.us
 xuite.net
 xuk.ru
 xun600.com
