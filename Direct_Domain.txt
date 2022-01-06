@@ -3151,6 +3151,7 @@
 363u.com
 364000.com
 365128.com
+365135.com
 36543.com
 365500.com
 365708.com
@@ -5512,7 +5513,6 @@
 6122.net
 612345.com
 612459.com
-6132071.com
 6132823.com
 6132979.com
 6137.net
@@ -8344,7 +8344,6 @@ aidpaper.com
 aidrive.com
 aiduoka.com
 aiduwenxue.com
-aidzs.com
 aiec-alliance.com
 aiegle.com
 aiemy.com
@@ -13168,6 +13167,7 @@ calibur.tv
 callda.com
 callmewhy.com
 caloinfo.com
+calorietech.com
 calt.com
 calvinneo.com
 cambm.com
@@ -13674,6 +13674,7 @@ cd-kc.com
 cd-vv.com
 cd-zc.com
 cd120.com
+cd23f.com
 cd37wan.com
 cdabon.com
 cdadata.com
@@ -18921,6 +18922,7 @@ dedeyun.com
 dedezhuji.com
 deehai.com
 deemob.com
+deemos.com
 deepai.com
 deepano.com
 deepaso.com
@@ -33300,6 +33302,7 @@ jiathis.com
 jiatingdog.com
 jiatui.com
 jiatx.com
+jiawentrans.com
 jiawin.com
 jiaxiaozhijia.com
 jiaxichina.net
@@ -40378,6 +40381,7 @@ menksoft.com
 menle.com
 menpiao.com
 menqiu.com
+menubarx.app
 menwee.com
 menww.com
 menwww.com
@@ -40828,6 +40832,7 @@ minhang.cc
 minhangshi.com
 minhow.com
 mini-audio.com
+mini-program.net
 mini5cn-1.opera-mini.net
 mini5cn.opera-mini.net
 miniadx.com
@@ -44450,6 +44455,7 @@ pdfbianji.com
 pdfdo.com
 pdfdowell.com
 pdfexpert.cc
+pdffsy.com
 pdffx.com
 pdfjia.com
 pdflibr.com
@@ -46970,6 +46976,7 @@ quduzixun.com
 queenfather.com
 quegame.com
 quegoo.com
+queji.tw
 queqiaoba.com
 querylist.cc
 queshao.com
@@ -52973,6 +52980,7 @@ talkop.com
 talkwithtrend.com
 talkyun.com
 taluo.com
+talyscm.com
 talzjsj.com
 tamaegis.com
 tamc8.com
@@ -54518,6 +54526,7 @@ touchstudio.net
 touchxd.com
 touclick.com
 touduyu.com
+toufu321.com
 toughcoder.net
 tougub.com
 touhou.cd
@@ -60192,6 +60201,7 @@ xhidc.com
 xhj.com
 xhjingling.com
 xhkt.tv
+xhlaowu.com
 xhlgfsc.com
 xhlyjlb.com
 xhma.com
@@ -63409,7 +63419,6 @@ yini.org
 yinjiaji.com
 yinjietd.com
 yinka.co
-yinke.com
 yinker.com
 yinlei.net
 yinliuba.com
@@ -65914,6 +65923,7 @@ zgtsm.com
 zgtuku.com
 zgtxw.com
 zgtygg.com
+zgtzhb.com
 zgui.com
 zguonew.com
 zgw.com
@@ -66088,7 +66098,6 @@ zhao163.com
 zhaoapple.com
 zhaobeidaxiao.com
 zhaobeijing.com
-zhaobiao.info
 zhaobuxiu.com
 zhaocaibb.com
 zhaocaihr.com
