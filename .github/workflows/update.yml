@@ -15,20 +15,21 @@ on:
 
 jobs:
     update:
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
+#        runs-on: self-hosted
         steps:
             -   name: Checkout
                 uses: actions/checkout@v2
                 with:
                     fetch-depth: 1
-#            -   name: Set up Go
-#                uses: actions/setup-go@v2
-#                with:
-#                    go-version: 1.17
+            -   name: Set up Go
+                uses: actions/setup-go@v2
+                with:
+                    go-version: 1.17
             -   name: Update Rule Data
                 run: |
                     go mod tidy
-                    go run -v ./cmd/.
+                    go run -v ./cmd/
             -   name: commit
                 run: |
                     git config --global user.email darabuchi0818@gmail.com
