@@ -6273,6 +6273,7 @@ borderexperience.weebly.com
 borderlandindustry.ml
 borderlands-books.com
 borderlessprepaid.com
+borgenmagazine.com
 boringart.lt
 boringcompany.com
 borquezyburr.cl
@@ -7493,6 +7494,7 @@ chicagolandbmw.com
 chicagoncmtv.com
 chichiao.weebly.com
 chickenbarrel.org
+chickenkiller.com
 chickstagram.com
 chiemtinhviet.com
 chihair-straightener.com
@@ -9890,6 +9892,7 @@ dm44143bsn99b.cloudfront.net
 dm530.net
 dmas.com.au
 dmbjjp7n9kgns.cloudfront.net
+dmc.nico
 dmcdn.net
 dmed.technology
 dmesg.app
@@ -11733,6 +11736,7 @@ fangongheike.com
 fanguangxin.com
 fanhaodang.com
 fanhaodian.com
+fanhaolou.com
 fanipa.com
 fanqiang.network
 fanqiang.tk
@@ -13717,9 +13721,9 @@ gmail.fr
 gmail.gunnery.org
 gmail.roche.com
 gmail.ucar.edu
-gmbd.cn
 gmc
 gmer.net
+gmgard.com
 gmhz.org
 gmial.com
 gmidkz5tgm.com
@@ -14603,6 +14607,7 @@ haskell.org
 haskellstack.org
 haswel.com
 hasznaltauto.hu
+hath.network
 hatsiklopedia.org
 hautelook.com
 hautelookcdn.com
@@ -14757,6 +14762,7 @@ hentai.as
 hentai.to
 hentai.xxx
 hentai4manga.com
+hentaiathome.net
 hentaicloud.com
 hentaifox.com
 hentaigasm.com
@@ -14781,7 +14787,6 @@ heroku-charge.com
 heroku.co
 heroku.com
 heroku.me
-herokuapp.com
 herokucdn.com
 herokucharge.com
 herokussl.com
@@ -16013,6 +16018,7 @@ impulsoti.com
 imstagram.com
 imsystem.site
 imtagram.com
+imtoken.fans
 imxiqi.com
 in
 in-disguise.com
@@ -16549,6 +16555,7 @@ istmein.de
 istockphoto.com
 isunaffairs.com
 isuntv.com
+isupportuyghurs.org
 it-como-hobby.com
 it.bnaz.org
 it.weekendmaxmara.com
@@ -18047,7 +18054,6 @@ lhasapost.com
 lhasocialwork.org
 lhfbet.com
 lhfplay.com
-lhie1.com
 li
 li-hongzhi-master.org
 li.t168.ml
@@ -18178,6 +18184,7 @@ lionsroar.com
 lipsy
 lipuman.com
 liquid.com
+liquiditytp.com
 liquidvpn.com
 liquipedia.org
 lis888.com
@@ -21113,7 +21120,9 @@ notheroes.com
 nothinghere.tk
 notify.dropboxapi.com
 notion-static.com
+notion.com
 notion.new
+notion.site
 notion.so
 notnancy.cl
 noto.web.id
@@ -21451,6 +21460,7 @@ ok.writers.idv.tw
 ok158158.com
 ok367.com
 ok99.yolasite.com
+okaapps.com
 okay.cf
 okayfreedom.com
 okcili.com
@@ -21484,6 +21494,7 @@ oldgoesyoung.com
 oldnavy
 oldpiratebay.org
 ole777.com
+olevod.com
 olicobrokers.com
 olimptrade.com.br
 oliverjcole.co.uk
@@ -22664,6 +22675,7 @@ pmo.gov.sg
 pn
 pnas.org
 pnc
+pndsn.com
 pniehus.de
 po09s0272.vooreeno.com
 po2b.com
@@ -22732,6 +22744,7 @@ ponz.me
 poofx.com
 poojaescorts.in
 pool.ntp.org
+poolin.com
 poow.ga
 pop.com.br
 popbox.com
@@ -23810,6 +23823,7 @@ relearnings.com
 releaseinternational.org
 releenc.org
 reliance
+religionnews.com
 religioustolerance.org
 reloadtech.com
 remanum.com
@@ -25299,6 +25313,7 @@ solidaritetibet.org
 solidaritywithtibet.org
 solidfiles.com
 solostudioksale.com
+solv.finance
 solveforx.com
 soma.im
 somcloud.com
@@ -25748,7 +25763,6 @@ static.iwincdn.com
 static.palgrave.com
 static.pubu.tw
 static.shemalez.com
-static.techspot.com
 static01.nyt.com
 staticflickr.com
 statkit.com
@@ -26324,6 +26338,7 @@ taobonfu.com
 taoism.net
 taolun.info
 tapanwap.com
+tapatalk.com
 tapbots.com
 tapbots.net
 tapestry.tapad.com
@@ -26867,8 +26882,10 @@ tibetanbuddhistinstitute.org
 tibetancommunity.org
 tibetancommunityuk.net
 tibetanculture.org
+tibetanentrepreneurs.org
 tibetanfeministcollective.org
 tibetangeeks.com
+tibetanhealth.org
 tibetanjournal.com
 tibetanlanguage.org
 tibetanliberation.org
@@ -27330,6 +27347,7 @@ trithucvn.org
 trmini.com
 troisrivieresmini.com
 troktiko.eu
+tronscan.org
 trouw.nl
 trove.trionworlds.com
 trovigo.com
@@ -27790,6 +27808,7 @@ typenetwork.com
 typepad.com
 typesquare.com
 typography.com
+typora.io
 tz
 u.cc.st
 u.f-q.me
@@ -27826,6 +27845,7 @@ ubnw.net
 ubpop.com
 ubs
 ubshe.com
+ubuntu-touch.io
 ubuntu.com
 ubuntu.net
 ubuntuforums.org
@@ -28210,6 +28230,7 @@ uy500.com
 uybbb.com
 uyghur-j.org
 uyghur.co.uk
+uyghuraa.org
 uyghuramerican.org
 uyghuraustralia.proboards.com
 uyghurbiz.org
@@ -35374,7 +35395,6 @@ xuanleba2014.com
 xuchao.net
 xuchao.org
 xuehaiblog.com
-xuehua.us
 xuite.net
 xuk.ru
 xun600.com
